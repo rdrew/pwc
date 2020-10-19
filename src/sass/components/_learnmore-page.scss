@@ -1,0 +1,26 @@
+.learn-more .panel-pane {
+
+  border-bottom: 1px solid #ccc;
+  margin-top: $global-margin;
+  padding-bottom: $global-padding;
+
+}
+.faq {
+
+  dd {
+  
+    margin-bottom: $global-margin;
+  }
+
+}
+.ol_books {
+.media-object {
+  @include callout-base;
+  .thumbnail img {
+    width: 100px;
+    
+  }
+  
+}
+
+}

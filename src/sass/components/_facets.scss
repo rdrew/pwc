@@ -1,0 +1,15 @@
+.search-facets {
+    ul {
+    }
+}
+.islandora-solr-facet-wrapper {
+    border-bottom : 4px double $tan-2;
+    margin-bottom: $global-margin;
+    padding-bottom: $global-margin;
+}
+.block ul.islandora-solr-facet {
+    padding: 0 0 0 1em;
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+}

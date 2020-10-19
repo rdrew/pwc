@@ -1,0 +1,72 @@
+footer {
+margin-top: $global-margin;
+  padding-top: $global-padding;
+  $text-color: $tan-1;
+  $bg-color: $tan-4;
+  /*color: lighten($tan-4, 40%);*/
+  color: $text_color;
+  background: $bg-color;
+  a {
+  //float:right;
+  }
+  svg { 
+    width: 100%;
+    height:auto;
+    * {
+
+      fill: $text-color;
+      #Oval,
+      #Oval use {
+        stroke: $text-color;
+      }
+  } }
+  
+}
+.subfooter {
+     max-width: 100%;
+    @include breakpoint(medium){
+
+     @include flex-grid-row();
+     max-width: 100%;
+    };
+
+     &__text {
+
+     @include flex-grid-column(10);
+     }
+     &__image {
+
+     @include flex-grid-column(2);
+     }
+  padding: $global-padding;
+  background: darken($tan-4, 10%);
+  
+}
+ .footer-logo svg {
+
+ 
+   width: 9rem;
+ 
+ }
+ #prov_govt {
+ text-align: center;
+ }
+ #museum {
+ text-align: center;
+ //text-align: right;
+ }
+ #upei_logo svg {
+ padding-top: $global-padding;
+   width: 11rem;
+ 
+ }
+ //.l-region--footer {
+ .footer-logos {
+     @include breakpoint(medium){
+     @include flex-grid-row();
+     };
+     & > * {
+         @include flex-grid-column();
+         @extend .text-center;
+     }
+ }

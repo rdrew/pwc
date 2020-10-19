@@ -1,0 +1,57 @@
+.collection-grid {
+  list-style-type: none;
+  @include xy-grid-container();
+    @include xy-grid;
+
+
+  &__collection {
+  @include xy-cell(6);
+
+  @include card-container(none, inherit, $global-margin, 1px solid #ccc, 0px, none);
+
+
+  }
+  &__collection--title {
+    @include card-divider;
+@extend h4;
+  }
+  &__collection--description {
+    @include card-section;
+
+  }
+}
+/*
+ *landing page tweaks
+ */
+.landing-page {
+  .pageTitle,
+  .breadcrumbs,
+  .tabs {
+
+    display:none;
+
+  }
+}
+/*
+ *cards
+ */
+.card_icon { 
+  svg {
+    width: 100%;
+    height:auto; 
+    fill: $black;
+  }
+  display:none;
+}
+.interactive .wheel,
+.learn_more .telescope,
+.archives .sextant {
+  display: block;
+}
+.card_icon {
+
+  width: rem-calc(40);
+  float: left;
+  margin-right: $global-margin/2;
+
+}

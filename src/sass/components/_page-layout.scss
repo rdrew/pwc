@@ -1,0 +1,43 @@
+//@format
+.l-main {
+    padding-top: $global_padding;
+}
+.breadcrumbs {
+    grid-area: breadcrumbs;
+}
+.l-content {
+    grid-area: content;
+}
+.l-region--sidebar-first {
+    grid-area: sidebar;
+}
+
+.l-page {
+    //padding-left: $global_padding;
+    //padding-right: $global_padding;
+}
+//.no-sidebars {
+//.l-main {
+//display: grid;
+//grid-gap: 1em;
+//grid-template-areas:
+//'breadcrumbs'
+//'content'
+//'sidebar';
+//}
+//}
+.l-main {
+    padding: $global_padding;
+}
+@include breakpoint(medium) {
+    .sidebar-first {
+        .l-main {
+            display: grid;
+            grid-gap: $global-margin * 2;
+            grid-template-columns: auto rem-calc(260);
+            grid-template-areas:
+                'breadcrumbs breadcrumbs'
+                'content sidebar';
+        }
+    }
+}

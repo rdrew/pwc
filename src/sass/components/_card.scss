@@ -1,0 +1,58 @@
+//@format
+.panel-panel div.card {
+    padding: 0;
+}
+.card {
+    @include shadow(1);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+
+    &-divider {
+        padding: 0.5rem 1rem 0.3rem;
+    }
+}
+.lp-feature-blocks {
+    @include flex-grid-row();
+}
+.lp-feature-block {
+    //layout
+    @include flex-grid-column(100%);
+    @include breakpoint(980) {
+        &.archives {
+            @include flex-grid-column(60%);
+        }
+        &.learn_more {
+            //display: none;
+            @include flex-grid-column(40%);
+        }
+        //styles
+        h4 {
+            margin: 0;
+        }
+        ul li a {
+            padding: 0;
+        }
+        ul {
+            list-style-type: none;
+            margin-left: 0;
+            li {
+                margin: 0;
+            }
+        }
+    }
+}
+.archives {
+    .card-section {
+        @include flex-grid-row();
+        margin: 0;
+        .left,
+        .right {
+            @include flex-grid-column(50%);
+        }
+    }
+}
+.card h2 {
+    font-size: rem-calc(27);
+    @include breakpoint(1172px) {
+        font-size: 2.125rem;
+    }
+}

@@ -1,0 +1,21 @@
+.nav-wrapper {
+
+  /*padding: 0 1rem;*/
+
+}
+.l-main, .l-region-header {
+  @include grid-row;
+
+
+}
+.pageTitle {
+ //float:left; 
+  width: calc(100% - 100px);
+}
+.config-dropdown {
+
+  display:inline-block;
+  width: 100px;
+
+
+}
