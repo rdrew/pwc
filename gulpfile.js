@@ -18,16 +18,16 @@ var gulp = require('gulp'),
 //############################
 
 //name of the drupal theme:
-var _themeName = 'islandarchives';
+var _themeName = 'pwc';
 
 //path to the themes assets (compiled css, js, imgs) dir
 //var _path = "/themes/orion/build";
-var _path = '/sites/all/themes/islandarchives/build';
+var _path = '/sites/pwc.dev.islandarchives.ca/themes/pwc/build';
 
 //make sure the 2 Dirs are correct
 var config = {
   //remoteURL: 'https://dev.islandarchives.ca/',
-  remoteURL: 'https://peildo.ca/',
+  remoteURL: 'https://pwc.dev.islandarchives.ca',
   srcDir: './src',
   injectDir: './build',
   bsPort: 8000,
@@ -36,11 +36,11 @@ var config = {
   localPath: '/build',
   //bs find and replace
   remoteCss:
-    '/sites/all/themes/islandarchives/build/css/islandarchives.styles.css',
-  localCss: '/build/css/islandarchives.styles.css',
+    '/sites/pwc.dev.islandarchives.ca/themes/pwc/build/css/pwc.styles.css',
+  localCss: '/build/css/pwc.styles.css',
   remoteJs:
-    '/sites/all/themes/islandarchives/build/js/islandarchives.behaviors.js',
-  localJs: '/build/js/islandarchives.behaviors.js',
+    '/sites/pwc.dev.islandarchives.ca/themes/pwc/build/js/pwc.behaviors.js',
+  localJs: '/build/js/pwc.behaviors.js',
 
   localAssets: {
     css: ['css/**/*.css'],

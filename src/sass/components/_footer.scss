@@ -2,7 +2,7 @@ footer {
 margin-top: $global-margin;
   padding-top: $global-padding;
   $text-color: $tan-1;
-  $bg-color: $tan-4;
+  $bg-color: #662B23;
   /*color: lighten($tan-4, 40%);*/
   color: $text_color;
   background: $bg-color;
@@ -40,6 +40,7 @@ margin-top: $global-margin;
      }
   padding: $global-padding;
   background: darken($tan-4, 10%);
+  background: #401B16;
   
 }
  .footer-logo svg {

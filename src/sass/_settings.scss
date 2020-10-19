@@ -68,16 +68,18 @@ $foundation-palette: (
   warning: #ffae00,
   alert: #cc4b37,
 );
+$wine: #80352B;
 $light-gray: #e6e6e6;
 $medium-gray: #cacaca;
 $dark-gray: #8a8a8a;
 //$black: #0a0a0a;
 $black: #2f2b27;
-$white: #fefefe;
-$body-background: $white;
+$navy: #23263E;
+$white: #faf9f7;
+$body-background: #faf9f7;
 $body-font-color: $black;
 //$body-font-family: 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
-$body-font-family: $font__fell-1;
+$body-font-family: $lato;
 $body-antialiased: true;
 $global-margin: 1rem;
 $global-padding: 1rem;
@@ -119,7 +121,7 @@ $block-grid-max: 8;
 // ------------------
 
 //$header-font-family: $body-font-family;
-$header-font-family: $font__fell-1--sc;
+$header-font-family: $josefin-sans;
 $header-font-weight: $global-weight-normal;
 $header-font-style: normal;
 $font-family-monospace: Consolas, 'Liberation Mono', Courier, monospace;
@@ -136,11 +138,17 @@ $header-styles: (
     'h6': ('font-size': 16),
   ),
   medium: (
-    'h1': ('font-size': 50),
-    'h2': ('font-size': 34),
-    'h3': ('font-size': 25),
-    'h4': ('font-size': 25),
-    'h5': ('font-size': 20),
+    //'h1': ('font-size': 50),
+    //'h2': ('font-size': 34),
+    //'h3': ('font-size': 25),
+    //'h4': ('font-size': 25),
+    //'h5': ('font-size': 20),
+    //'h6': ('font-size': 16),
+    'h1': ('font-size': 42),
+    'h2': ('font-size': 25),
+    'h3': ('font-size': 16),
+    'h4': ('font-size': 18),
+    'h5': ('font-size': 17),
     'h6': ('font-size': 16),
   ),
 );
@@ -638,7 +646,7 @@ $tooltip-radius: $global-radius;
 // -----------
 
 $topbar-padding: 0.5rem;
-$topbar-background: $black;
+$topbar-background: $navy;
 //$topbar-submenu-background: $topbar-background;
 $topbar-submenu-background: #fff;
 $topbar-title-spacing: 0.5rem 1rem 0.5rem 0;

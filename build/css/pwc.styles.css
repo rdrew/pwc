@@ -1,11 +1,12 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon|IM+Fell+French+Canon+SC|IM+Fell+Great+Primer|IM+Fell+Great+Primer+SC");
 @import url("https://fonts.googleapis.com/css?family=Vollkorn+SC:400,600|Vollkorn:400,400i,600,600i&display=swap&subset=cyrillic");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Lato:ital,wght@0,400;1,300;1,400&display=swap");
 /*$card-divider-background: $light-gray;*/
 /**
- * Foundation for Sites by ZURB
- * Version 6.5.3
- * foundation.zurb.com
+ * Foundation for Sites
+ * Version 6.6.3
+ * https://get.foundation
  * Licensed under MIT Open Source
  */
 @media print, screen and (min-width: 40em) {
@@ -1327,8 +1328,8 @@ html {
 body {
   margin: 0;
   padding: 0;
-  background: #fefefe;
-  font-family: "IM Fell Great Primer", serif;
+  background: #faf9f7;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
   line-height: 1.5;
   color: #2f2b27;
@@ -1363,7 +1364,6 @@ select {
 button {
   padding: 0;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   border: 0;
   border-radius: 0;
@@ -1722,22 +1722,14 @@ textarea {
     float: none;
     clear: both; }
 
-.small-uncentered,
-.small-push-0,
-.small-pull-0 {
+.small-uncentered, .small-push-0, .small-pull-0 {
   position: static;
   margin-right: 0;
   margin-left: 0; }
-  .small-uncentered, .small-uncentered:last-child:not(:first-child),
-  .small-push-0,
-  .small-push-0:last-child:not(:first-child),
-  .small-pull-0,
-  .small-pull-0:last-child:not(:first-child) {
+  .small-uncentered, .small-uncentered:last-child:not(:first-child), .small-push-0, .small-push-0:last-child:not(:first-child), .small-pull-0, .small-pull-0:last-child:not(:first-child) {
     float: left;
     clear: none; }
-  .small-uncentered:last-child:not(:first-child),
-  .small-push-0:last-child:not(:first-child),
-  .small-pull-0:last-child:not(:first-child) {
+  .small-uncentered:last-child:not(:first-child), .small-push-0:last-child:not(:first-child), .small-pull-0:last-child:not(:first-child) {
     float: right; }
 
 @media print, screen and (min-width: 40em) {
@@ -1945,22 +1937,14 @@ textarea {
     .medium-centered, .medium-centered:last-child:not(:first-child) {
       float: none;
       clear: both; }
-  .medium-uncentered,
-  .medium-push-0,
-  .medium-pull-0 {
+  .medium-uncentered, .medium-push-0, .medium-pull-0 {
     position: static;
     margin-right: 0;
     margin-left: 0; }
-    .medium-uncentered, .medium-uncentered:last-child:not(:first-child),
-    .medium-push-0,
-    .medium-push-0:last-child:not(:first-child),
-    .medium-pull-0,
-    .medium-pull-0:last-child:not(:first-child) {
+    .medium-uncentered, .medium-uncentered:last-child:not(:first-child), .medium-push-0, .medium-push-0:last-child:not(:first-child), .medium-pull-0, .medium-pull-0:last-child:not(:first-child) {
       float: left;
       clear: none; }
-    .medium-uncentered:last-child:not(:first-child),
-    .medium-push-0:last-child:not(:first-child),
-    .medium-pull-0:last-child:not(:first-child) {
+    .medium-uncentered:last-child:not(:first-child), .medium-push-0:last-child:not(:first-child), .medium-pull-0:last-child:not(:first-child) {
       float: right; } }
 
 @media print, screen and (min-width: 64em) {
@@ -2168,22 +2152,14 @@ textarea {
     .large-centered, .large-centered:last-child:not(:first-child) {
       float: none;
       clear: both; }
-  .large-uncentered,
-  .large-push-0,
-  .large-pull-0 {
+  .large-uncentered, .large-push-0, .large-pull-0 {
     position: static;
     margin-right: 0;
     margin-left: 0; }
-    .large-uncentered, .large-uncentered:last-child:not(:first-child),
-    .large-push-0,
-    .large-push-0:last-child:not(:first-child),
-    .large-pull-0,
-    .large-pull-0:last-child:not(:first-child) {
+    .large-uncentered, .large-uncentered:last-child:not(:first-child), .large-push-0, .large-push-0:last-child:not(:first-child), .large-pull-0, .large-pull-0:last-child:not(:first-child) {
       float: left;
       clear: none; }
-    .large-uncentered:last-child:not(:first-child),
-    .large-push-0:last-child:not(:first-child),
-    .large-pull-0:last-child:not(:first-child) {
+    .large-uncentered:last-child:not(:first-child), .large-push-0:last-child:not(:first-child), .large-pull-0:last-child:not(:first-child) {
       float: right; } }
 
 .column-block {
@@ -3014,7 +2990,7 @@ h4,
 .collection-grid__collection--title, .h4,
 h5, .h5,
 h6, .h6 {
-  font-family: "IM Fell Great Primer SC", serif;
+  font-family: "Josefin Sans", sans-serif;
   font-style: normal;
   font-weight: normal;
   color: inherit;
@@ -3072,19 +3048,19 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 3.125rem; }
+    font-size: 2.625rem; }
   
   h2,
   .site-slogan, .h2 {
-    font-size: 2.125rem; }
-  h3, .h3 {
     font-size: 1.5625rem; }
+  h3, .h3 {
+    font-size: 1rem; }
   
   h4,
   .collection-grid__collection--title, .h4 {
-    font-size: 1.5625rem; }
+    font-size: 1.125rem; }
   h5, .h5 {
-    font-size: 1.25rem; }
+    font-size: 1.0625rem; }
   h6, .h6 {
     font-size: 1rem; } }
 
@@ -3144,13 +3120,6 @@ blockquote {
     line-height: 1.6;
     color: #8a8a8a; }
 
-cite {
-  display: block;
-  font-size: 0.8125rem;
-  color: #8a8a8a; }
-  cite:before {
-    content: "— "; }
-
 abbr, abbr[title] {
   border-bottom: 1px dotted #2f2b27;
   cursor: help;
@@ -3158,14 +3127,6 @@ abbr, abbr[title] {
 
 figure {
   margin: 0; }
-
-code {
-  padding: 0.125rem 0.3125rem 0.0625rem;
-  border: 1px solid #cacaca;
-  background-color: #e6e6e6;
-  font-family: Consolas, "Liberation Mono", Courier, monospace;
-  font-weight: normal;
-  color: #2f2b27; }
 
 kbd {
   margin: 0;
@@ -3194,6 +3155,36 @@ kbd {
 ul.no-bullet, ol.no-bullet {
   margin-left: 0;
   list-style: none; }
+
+.cite-block, cite {
+  display: block;
+  color: #8a8a8a;
+  font-size: 0.8125rem; }
+  .cite-block:before, cite:before {
+    content: "— "; }
+
+.code-inline, code {
+  border: 1px solid #cacaca;
+  background-color: #e6e6e6;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: normal;
+  color: #2f2b27;
+  display: inline;
+  max-width: 100%;
+  word-wrap: break-word;
+  padding: 0.125rem 0.3125rem 0.0625rem; }
+
+.code-block {
+  border: 1px solid #cacaca;
+  background-color: #e6e6e6;
+  font-family: Consolas, "Liberation Mono", Courier, monospace;
+  font-weight: normal;
+  color: #2f2b27;
+  display: block;
+  overflow: auto;
+  white-space: pre;
+  padding: 1rem;
+  margin-bottom: 1.5rem; }
 
 .text-left {
   text-align: left; }
@@ -3233,8 +3224,9 @@ ul.no-bullet, ol.no-bullet {
 @media print {
   * {
     background: transparent !important;
-    box-shadow: none !important;
     color: black !important;
+    color-adjust: economy;
+    box-shadow: none !important;
     text-shadow: none !important; }
   .show-for-print {
     display: block !important; }
@@ -3300,7 +3292,7 @@ textarea {
   padding: 0.5rem;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #faf9f7;
   box-shadow: inset 0 1px 2px rgba(47, 43, 39, 0.1);
   font-family: inherit;
   font-size: 1rem;
@@ -3309,13 +3301,12 @@ textarea {
   color: #2f2b27;
   transition: box-shadow 0.5s, border-color 0.25s ease-in-out;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none; }
   [type='text']:focus, [type='password']:focus, [type='date']:focus, [type='datetime']:focus, [type='datetime-local']:focus, [type='month']:focus, [type='week']:focus, [type='email']:focus, [type='number']:focus, [type='search']:focus, [type='tel']:focus, [type='time']:focus, [type='url']:focus, [type='color']:focus,
   textarea:focus {
     outline: none;
     border: 1px solid #8a8a8a;
-    background-color: #fefefe;
+    background-color: #faf9f7;
     box-shadow: 0 0 5px #cacaca;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
 
@@ -3333,7 +3324,6 @@ textarea[readonly] {
 [type='submit'],
 [type='button'] {
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   border-radius: 0; }
 
@@ -3472,11 +3462,10 @@ select {
   margin: 0 0 1rem;
   padding: 0.5rem;
   -webkit-appearance: none;
-     -moz-appearance: none;
           appearance: none;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #faf9f7;
   font-family: inherit;
   font-size: 1rem;
   font-weight: normal;
@@ -3495,7 +3484,7 @@ select {
   select:focus {
     outline: none;
     border: 1px solid #8a8a8a;
-    background-color: #fefefe;
+    background-color: #faf9f7;
     box-shadow: 0 0 5px #cacaca;
     transition: box-shadow 0.5s, border-color 0.25s ease-in-out; }
   select:disabled {
@@ -3506,10 +3495,13 @@ select {
   select[multiple] {
     height: auto;
     background-image: none; }
+  select:not([multiple]) {
+    padding-top: 0;
+    padding-bottom: 0; }
 
 .is-invalid-input:not(:focus) {
   border-color: #cc4b37;
-  background-color: #f9ecea; }
+  background-color: #f5e8e4; }
   .is-invalid-input:not(:focus):-ms-input-placeholder {
     color: #cc4b37; }
   .is-invalid-input:not(:focus)::placeholder {
@@ -3541,14 +3533,9 @@ select {
   -webkit-appearance: none;
   line-height: 1;
   text-align: center;
-  cursor: pointer;
-  background-color: #47632d;
-  color: #fefefe; }
+  cursor: pointer; }
   [data-whatinput='mouse'] .button, [data-whatinput='mouse'] input[type="submit"] {
     outline: 0; }
-  .button:hover, input:hover[type="submit"], .button:focus, input:focus[type="submit"] {
-    background-color: #3c5426;
-    color: #fefefe; }
   .button.tiny, input.tiny[type="submit"] {
     font-size: 0.6rem; }
   .button.small, input.small[type="submit"] {
@@ -3560,200 +3547,110 @@ select {
     width: 100%;
     margin-right: 0;
     margin-left: 0; }
-  .button.primary, input.primary[type="submit"] {
+  .button, input[type="submit"], .button.disabled, input.disabled[type="submit"], .button[disabled], input[disabled][type="submit"], .button.disabled:hover, input.disabled:hover[type="submit"], .button[disabled]:hover, input[disabled]:hover[type="submit"], .button.disabled:focus, input.disabled:focus[type="submit"], .button[disabled]:focus, input[disabled]:focus[type="submit"] {
     background-color: #47632d;
-    color: #fefefe; }
-    .button.primary:hover, input.primary:hover[type="submit"], .button.primary:focus, input.primary:focus[type="submit"] {
-      background-color: #394f24;
-      color: #fefefe; }
-  .button.secondary, input.secondary[type="submit"] {
+    color: #faf9f7; }
+  .button:hover, input:hover[type="submit"], .button:focus, input:focus[type="submit"] {
+    background-color: #3c5426;
+    color: #faf9f7; }
+  .button.primary, input.primary[type="submit"], .button.primary.disabled, input.primary.disabled[type="submit"], .button.primary[disabled], input.primary[disabled][type="submit"], .button.primary.disabled:hover, input.primary.disabled:hover[type="submit"], .button.primary[disabled]:hover, input.primary[disabled]:hover[type="submit"], .button.primary.disabled:focus, input.primary.disabled:focus[type="submit"], .button.primary[disabled]:focus, input.primary[disabled]:focus[type="submit"] {
+    background-color: #47632d;
+    color: #faf9f7; }
+  .button.primary:hover, input.primary:hover[type="submit"], .button.primary:focus, input.primary:focus[type="submit"] {
+    background-color: #394f24;
+    color: #faf9f7; }
+  .button.secondary, input.secondary[type="submit"], .button.secondary.disabled, input.secondary.disabled[type="submit"], .button.secondary[disabled], input.secondary[disabled][type="submit"], .button.secondary.disabled:hover, input.secondary.disabled:hover[type="submit"], .button.secondary[disabled]:hover, input.secondary[disabled]:hover[type="submit"], .button.secondary.disabled:focus, input.secondary.disabled:focus[type="submit"], .button.secondary[disabled]:focus, input.secondary[disabled]:focus[type="submit"] {
     background-color: #767676;
-    color: #fefefe; }
-    .button.secondary:hover, input.secondary:hover[type="submit"], .button.secondary:focus, input.secondary:focus[type="submit"] {
-      background-color: #5e5e5e;
-      color: #fefefe; }
-  .button.success, input.success[type="submit"] {
+    color: #faf9f7; }
+  .button.secondary:hover, input.secondary:hover[type="submit"], .button.secondary:focus, input.secondary:focus[type="submit"] {
+    background-color: #5e5e5e;
+    color: #faf9f7; }
+  .button.success, input.success[type="submit"], .button.success.disabled, input.success.disabled[type="submit"], .button.success[disabled], input.success[disabled][type="submit"], .button.success.disabled:hover, input.success.disabled:hover[type="submit"], .button.success[disabled]:hover, input.success[disabled]:hover[type="submit"], .button.success.disabled:focus, input.success.disabled:focus[type="submit"], .button.success[disabled]:focus, input.success[disabled]:focus[type="submit"] {
     background-color: #3adb76;
     color: #2f2b27; }
-    .button.success:hover, input.success:hover[type="submit"], .button.success:focus, input.success:focus[type="submit"] {
-      background-color: #22bb5b;
-      color: #2f2b27; }
-  .button.warning, input.warning[type="submit"] {
+  .button.success:hover, input.success:hover[type="submit"], .button.success:focus, input.success:focus[type="submit"] {
+    background-color: #22bb5b;
+    color: #2f2b27; }
+  .button.warning, input.warning[type="submit"], .button.warning.disabled, input.warning.disabled[type="submit"], .button.warning[disabled], input.warning[disabled][type="submit"], .button.warning.disabled:hover, input.warning.disabled:hover[type="submit"], .button.warning[disabled]:hover, input.warning[disabled]:hover[type="submit"], .button.warning.disabled:focus, input.warning.disabled:focus[type="submit"], .button.warning[disabled]:focus, input.warning[disabled]:focus[type="submit"] {
     background-color: #ffae00;
     color: #2f2b27; }
-    .button.warning:hover, input.warning:hover[type="submit"], .button.warning:focus, input.warning:focus[type="submit"] {
-      background-color: #cc8b00;
-      color: #2f2b27; }
-  .button.alert, input.alert[type="submit"] {
+  .button.warning:hover, input.warning:hover[type="submit"], .button.warning:focus, input.warning:focus[type="submit"] {
+    background-color: #cc8b00;
+    color: #2f2b27; }
+  .button.alert, input.alert[type="submit"], .button.alert.disabled, input.alert.disabled[type="submit"], .button.alert[disabled], input.alert[disabled][type="submit"], .button.alert.disabled:hover, input.alert.disabled:hover[type="submit"], .button.alert[disabled]:hover, input.alert[disabled]:hover[type="submit"], .button.alert.disabled:focus, input.alert.disabled:focus[type="submit"], .button.alert[disabled]:focus, input.alert[disabled]:focus[type="submit"] {
     background-color: #cc4b37;
-    color: #fefefe; }
-    .button.alert:hover, input.alert:hover[type="submit"], .button.alert:focus, input.alert:focus[type="submit"] {
-      background-color: #a53b2a;
-      color: #fefefe; }
+    color: #faf9f7; }
+  .button.alert:hover, input.alert:hover[type="submit"], .button.alert:focus, input.alert:focus[type="submit"] {
+    background-color: #a53b2a;
+    color: #faf9f7; }
+  .button.hollow, input.hollow[type="submit"], .button.hollow:hover, input.hollow:hover[type="submit"], .button.hollow:focus, input.hollow:focus[type="submit"], .button.hollow.disabled, input.hollow.disabled[type="submit"], .button.hollow.disabled:hover, input.hollow.disabled:hover[type="submit"], .button.hollow.disabled:focus, input.hollow.disabled:focus[type="submit"], .button.hollow[disabled], input.hollow[disabled][type="submit"], .button.hollow[disabled]:hover, input.hollow[disabled]:hover[type="submit"], .button.hollow[disabled]:focus, input.hollow[disabled]:focus[type="submit"] {
+    background-color: transparent; }
+  .button.hollow, input.hollow[type="submit"], .button.hollow.disabled, input.hollow.disabled[type="submit"], .button.hollow[disabled], input.hollow[disabled][type="submit"], .button.hollow.disabled:hover, input.hollow.disabled:hover[type="submit"], .button.hollow[disabled]:hover, input.hollow[disabled]:hover[type="submit"], .button.hollow.disabled:focus, input.hollow.disabled:focus[type="submit"], .button.hollow[disabled]:focus, input.hollow[disabled]:focus[type="submit"] {
+    border: 1px solid #47632d;
+    color: #47632d; }
+  .button.hollow:hover, input.hollow:hover[type="submit"], .button.hollow:focus, input.hollow:focus[type="submit"] {
+    border-color: #243217;
+    color: #243217; }
+  .button.hollow.primary, input.hollow.primary[type="submit"], .button.hollow.primary.disabled, input.hollow.primary.disabled[type="submit"], .button.hollow.primary[disabled], input.hollow.primary[disabled][type="submit"], .button.hollow.primary.disabled:hover, input.hollow.primary.disabled:hover[type="submit"], .button.hollow.primary[disabled]:hover, input.hollow.primary[disabled]:hover[type="submit"], .button.hollow.primary.disabled:focus, input.hollow.primary.disabled:focus[type="submit"], .button.hollow.primary[disabled]:focus, input.hollow.primary[disabled]:focus[type="submit"] {
+    border: 1px solid #47632d;
+    color: #47632d; }
+  .button.hollow.primary:hover, input.hollow.primary:hover[type="submit"], .button.hollow.primary:focus, input.hollow.primary:focus[type="submit"] {
+    border-color: #243217;
+    color: #243217; }
+  .button.hollow.secondary, input.hollow.secondary[type="submit"], .button.hollow.secondary.disabled, input.hollow.secondary.disabled[type="submit"], .button.hollow.secondary[disabled], input.hollow.secondary[disabled][type="submit"], .button.hollow.secondary.disabled:hover, input.hollow.secondary.disabled:hover[type="submit"], .button.hollow.secondary[disabled]:hover, input.hollow.secondary[disabled]:hover[type="submit"], .button.hollow.secondary.disabled:focus, input.hollow.secondary.disabled:focus[type="submit"], .button.hollow.secondary[disabled]:focus, input.hollow.secondary[disabled]:focus[type="submit"] {
+    border: 1px solid #767676;
+    color: #767676; }
+  .button.hollow.secondary:hover, input.hollow.secondary:hover[type="submit"], .button.hollow.secondary:focus, input.hollow.secondary:focus[type="submit"] {
+    border-color: #3b3b3b;
+    color: #3b3b3b; }
+  .button.hollow.success, input.hollow.success[type="submit"], .button.hollow.success.disabled, input.hollow.success.disabled[type="submit"], .button.hollow.success[disabled], input.hollow.success[disabled][type="submit"], .button.hollow.success.disabled:hover, input.hollow.success.disabled:hover[type="submit"], .button.hollow.success[disabled]:hover, input.hollow.success[disabled]:hover[type="submit"], .button.hollow.success.disabled:focus, input.hollow.success.disabled:focus[type="submit"], .button.hollow.success[disabled]:focus, input.hollow.success[disabled]:focus[type="submit"] {
+    border: 1px solid #3adb76;
+    color: #3adb76; }
+  .button.hollow.success:hover, input.hollow.success:hover[type="submit"], .button.hollow.success:focus, input.hollow.success:focus[type="submit"] {
+    border-color: #157539;
+    color: #157539; }
+  .button.hollow.warning, input.hollow.warning[type="submit"], .button.hollow.warning.disabled, input.hollow.warning.disabled[type="submit"], .button.hollow.warning[disabled], input.hollow.warning[disabled][type="submit"], .button.hollow.warning.disabled:hover, input.hollow.warning.disabled:hover[type="submit"], .button.hollow.warning[disabled]:hover, input.hollow.warning[disabled]:hover[type="submit"], .button.hollow.warning.disabled:focus, input.hollow.warning.disabled:focus[type="submit"], .button.hollow.warning[disabled]:focus, input.hollow.warning[disabled]:focus[type="submit"] {
+    border: 1px solid #ffae00;
+    color: #ffae00; }
+  .button.hollow.warning:hover, input.hollow.warning:hover[type="submit"], .button.hollow.warning:focus, input.hollow.warning:focus[type="submit"] {
+    border-color: #805700;
+    color: #805700; }
+  .button.hollow.alert, input.hollow.alert[type="submit"], .button.hollow.alert.disabled, input.hollow.alert.disabled[type="submit"], .button.hollow.alert[disabled], input.hollow.alert[disabled][type="submit"], .button.hollow.alert.disabled:hover, input.hollow.alert.disabled:hover[type="submit"], .button.hollow.alert[disabled]:hover, input.hollow.alert[disabled]:hover[type="submit"], .button.hollow.alert.disabled:focus, input.hollow.alert.disabled:focus[type="submit"], .button.hollow.alert[disabled]:focus, input.hollow.alert[disabled]:focus[type="submit"] {
+    border: 1px solid #cc4b37;
+    color: #cc4b37; }
+  .button.hollow.alert:hover, input.hollow.alert:hover[type="submit"], .button.hollow.alert:focus, input.hollow.alert:focus[type="submit"] {
+    border-color: #67251a;
+    color: #67251a; }
+  .button.clear, input.clear[type="submit"], .button.clear:hover, input.clear:hover[type="submit"], .button.clear:focus, input.clear:focus[type="submit"], .button.clear.disabled, input.clear.disabled[type="submit"], .button.clear.disabled:hover, input.clear.disabled:hover[type="submit"], .button.clear.disabled:focus, input.clear.disabled:focus[type="submit"], .button.clear[disabled], input.clear[disabled][type="submit"], .button.clear[disabled]:hover, input.clear[disabled]:hover[type="submit"], .button.clear[disabled]:focus, input.clear[disabled]:focus[type="submit"] {
+    border-color: transparent;
+    background-color: transparent; }
+  .button.clear, input.clear[type="submit"], .button.clear.disabled, input.clear.disabled[type="submit"], .button.clear[disabled], input.clear[disabled][type="submit"], .button.clear.disabled:hover, input.clear.disabled:hover[type="submit"], .button.clear[disabled]:hover, input.clear[disabled]:hover[type="submit"], .button.clear.disabled:focus, input.clear.disabled:focus[type="submit"], .button.clear[disabled]:focus, input.clear[disabled]:focus[type="submit"] {
+    color: #47632d; }
+  .button.clear:hover, input.clear:hover[type="submit"], .button.clear:focus, input.clear:focus[type="submit"] {
+    color: #243217; }
+  .button.clear.primary, input.clear.primary[type="submit"], .button.clear.primary.disabled, input.clear.primary.disabled[type="submit"], .button.clear.primary[disabled], input.clear.primary[disabled][type="submit"], .button.clear.primary.disabled:hover, input.clear.primary.disabled:hover[type="submit"], .button.clear.primary[disabled]:hover, input.clear.primary[disabled]:hover[type="submit"], .button.clear.primary.disabled:focus, input.clear.primary.disabled:focus[type="submit"], .button.clear.primary[disabled]:focus, input.clear.primary[disabled]:focus[type="submit"] {
+    color: #47632d; }
+  .button.clear.primary:hover, input.clear.primary:hover[type="submit"], .button.clear.primary:focus, input.clear.primary:focus[type="submit"] {
+    color: #243217; }
+  .button.clear.secondary, input.clear.secondary[type="submit"], .button.clear.secondary.disabled, input.clear.secondary.disabled[type="submit"], .button.clear.secondary[disabled], input.clear.secondary[disabled][type="submit"], .button.clear.secondary.disabled:hover, input.clear.secondary.disabled:hover[type="submit"], .button.clear.secondary[disabled]:hover, input.clear.secondary[disabled]:hover[type="submit"], .button.clear.secondary.disabled:focus, input.clear.secondary.disabled:focus[type="submit"], .button.clear.secondary[disabled]:focus, input.clear.secondary[disabled]:focus[type="submit"] {
+    color: #767676; }
+  .button.clear.secondary:hover, input.clear.secondary:hover[type="submit"], .button.clear.secondary:focus, input.clear.secondary:focus[type="submit"] {
+    color: #3b3b3b; }
+  .button.clear.success, input.clear.success[type="submit"], .button.clear.success.disabled, input.clear.success.disabled[type="submit"], .button.clear.success[disabled], input.clear.success[disabled][type="submit"], .button.clear.success.disabled:hover, input.clear.success.disabled:hover[type="submit"], .button.clear.success[disabled]:hover, input.clear.success[disabled]:hover[type="submit"], .button.clear.success.disabled:focus, input.clear.success.disabled:focus[type="submit"], .button.clear.success[disabled]:focus, input.clear.success[disabled]:focus[type="submit"] {
+    color: #3adb76; }
+  .button.clear.success:hover, input.clear.success:hover[type="submit"], .button.clear.success:focus, input.clear.success:focus[type="submit"] {
+    color: #157539; }
+  .button.clear.warning, input.clear.warning[type="submit"], .button.clear.warning.disabled, input.clear.warning.disabled[type="submit"], .button.clear.warning[disabled], input.clear.warning[disabled][type="submit"], .button.clear.warning.disabled:hover, input.clear.warning.disabled:hover[type="submit"], .button.clear.warning[disabled]:hover, input.clear.warning[disabled]:hover[type="submit"], .button.clear.warning.disabled:focus, input.clear.warning.disabled:focus[type="submit"], .button.clear.warning[disabled]:focus, input.clear.warning[disabled]:focus[type="submit"] {
+    color: #ffae00; }
+  .button.clear.warning:hover, input.clear.warning:hover[type="submit"], .button.clear.warning:focus, input.clear.warning:focus[type="submit"] {
+    color: #805700; }
+  .button.clear.alert, input.clear.alert[type="submit"], .button.clear.alert.disabled, input.clear.alert.disabled[type="submit"], .button.clear.alert[disabled], input.clear.alert[disabled][type="submit"], .button.clear.alert.disabled:hover, input.clear.alert.disabled:hover[type="submit"], .button.clear.alert[disabled]:hover, input.clear.alert[disabled]:hover[type="submit"], .button.clear.alert.disabled:focus, input.clear.alert.disabled:focus[type="submit"], .button.clear.alert[disabled]:focus, input.clear.alert[disabled]:focus[type="submit"] {
+    color: #cc4b37; }
+  .button.clear.alert:hover, input.clear.alert:hover[type="submit"], .button.clear.alert:focus, input.clear.alert:focus[type="submit"] {
+    color: #67251a; }
   .button.disabled, input.disabled[type="submit"], .button[disabled], input[disabled][type="submit"] {
     opacity: 0.25;
     cursor: not-allowed; }
-    .button.disabled, input.disabled[type="submit"], .button.disabled:hover, input.disabled:hover[type="submit"], .button.disabled:focus, input.disabled:focus[type="submit"], .button[disabled], input[disabled][type="submit"], .button[disabled]:hover, input[disabled]:hover[type="submit"], .button[disabled]:focus, input[disabled]:focus[type="submit"] {
-      background-color: #47632d;
-      color: #fefefe; }
-    .button.disabled.primary, input.disabled.primary[type="submit"], .button[disabled].primary, input[disabled].primary[type="submit"] {
-      opacity: 0.25;
-      cursor: not-allowed; }
-      .button.disabled.primary, input.disabled.primary[type="submit"], .button.disabled.primary:hover, input.disabled.primary:hover[type="submit"], .button.disabled.primary:focus, input.disabled.primary:focus[type="submit"], .button[disabled].primary, input[disabled].primary[type="submit"], .button[disabled].primary:hover, input[disabled].primary:hover[type="submit"], .button[disabled].primary:focus, input[disabled].primary:focus[type="submit"] {
-        background-color: #47632d;
-        color: #fefefe; }
-    .button.disabled.secondary, input.disabled.secondary[type="submit"], .button[disabled].secondary, input[disabled].secondary[type="submit"] {
-      opacity: 0.25;
-      cursor: not-allowed; }
-      .button.disabled.secondary, input.disabled.secondary[type="submit"], .button.disabled.secondary:hover, input.disabled.secondary:hover[type="submit"], .button.disabled.secondary:focus, input.disabled.secondary:focus[type="submit"], .button[disabled].secondary, input[disabled].secondary[type="submit"], .button[disabled].secondary:hover, input[disabled].secondary:hover[type="submit"], .button[disabled].secondary:focus, input[disabled].secondary:focus[type="submit"] {
-        background-color: #767676;
-        color: #fefefe; }
-    .button.disabled.success, input.disabled.success[type="submit"], .button[disabled].success, input[disabled].success[type="submit"] {
-      opacity: 0.25;
-      cursor: not-allowed; }
-      .button.disabled.success, input.disabled.success[type="submit"], .button.disabled.success:hover, input.disabled.success:hover[type="submit"], .button.disabled.success:focus, input.disabled.success:focus[type="submit"], .button[disabled].success, input[disabled].success[type="submit"], .button[disabled].success:hover, input[disabled].success:hover[type="submit"], .button[disabled].success:focus, input[disabled].success:focus[type="submit"] {
-        background-color: #3adb76;
-        color: #2f2b27; }
-    .button.disabled.warning, input.disabled.warning[type="submit"], .button[disabled].warning, input[disabled].warning[type="submit"] {
-      opacity: 0.25;
-      cursor: not-allowed; }
-      .button.disabled.warning, input.disabled.warning[type="submit"], .button.disabled.warning:hover, input.disabled.warning:hover[type="submit"], .button.disabled.warning:focus, input.disabled.warning:focus[type="submit"], .button[disabled].warning, input[disabled].warning[type="submit"], .button[disabled].warning:hover, input[disabled].warning:hover[type="submit"], .button[disabled].warning:focus, input[disabled].warning:focus[type="submit"] {
-        background-color: #ffae00;
-        color: #2f2b27; }
-    .button.disabled.alert, input.disabled.alert[type="submit"], .button[disabled].alert, input[disabled].alert[type="submit"] {
-      opacity: 0.25;
-      cursor: not-allowed; }
-      .button.disabled.alert, input.disabled.alert[type="submit"], .button.disabled.alert:hover, input.disabled.alert:hover[type="submit"], .button.disabled.alert:focus, input.disabled.alert:focus[type="submit"], .button[disabled].alert, input[disabled].alert[type="submit"], .button[disabled].alert:hover, input[disabled].alert:hover[type="submit"], .button[disabled].alert:focus, input[disabled].alert:focus[type="submit"] {
-        background-color: #cc4b37;
-        color: #fefefe; }
-  .button.hollow, input.hollow[type="submit"] {
-    border: 1px solid #47632d;
-    color: #47632d; }
-    .button.hollow, input.hollow[type="submit"], .button.hollow:hover, input.hollow:hover[type="submit"], .button.hollow:focus, input.hollow:focus[type="submit"] {
-      background-color: transparent; }
-    .button.hollow.disabled, input.hollow.disabled[type="submit"], .button.hollow.disabled:hover, input.hollow.disabled:hover[type="submit"], .button.hollow.disabled:focus, input.hollow.disabled:focus[type="submit"], .button.hollow[disabled], input.hollow[disabled][type="submit"], .button.hollow[disabled]:hover, input.hollow[disabled]:hover[type="submit"], .button.hollow[disabled]:focus, input.hollow[disabled]:focus[type="submit"] {
-      background-color: transparent; }
-    .button.hollow:hover, input.hollow:hover[type="submit"], .button.hollow:focus, input.hollow:focus[type="submit"] {
-      border-color: #243217;
-      color: #243217; }
-      .button.hollow:hover.disabled, input.hollow:hover.disabled[type="submit"], .button.hollow:hover[disabled], input.hollow:hover[disabled][type="submit"], .button.hollow:focus.disabled, input.hollow:focus.disabled[type="submit"], .button.hollow:focus[disabled], input.hollow:focus[disabled][type="submit"] {
-        border: 1px solid #47632d;
-        color: #47632d; }
-    .button.hollow.primary, input.hollow.primary[type="submit"] {
-      border: 1px solid #47632d;
-      color: #47632d; }
-      .button.hollow.primary:hover, input.hollow.primary:hover[type="submit"], .button.hollow.primary:focus, input.hollow.primary:focus[type="submit"] {
-        border-color: #243217;
-        color: #243217; }
-        .button.hollow.primary:hover.disabled, input.hollow.primary:hover.disabled[type="submit"], .button.hollow.primary:hover[disabled], input.hollow.primary:hover[disabled][type="submit"], .button.hollow.primary:focus.disabled, input.hollow.primary:focus.disabled[type="submit"], .button.hollow.primary:focus[disabled], input.hollow.primary:focus[disabled][type="submit"] {
-          border: 1px solid #47632d;
-          color: #47632d; }
-    .button.hollow.secondary, input.hollow.secondary[type="submit"] {
-      border: 1px solid #767676;
-      color: #767676; }
-      .button.hollow.secondary:hover, input.hollow.secondary:hover[type="submit"], .button.hollow.secondary:focus, input.hollow.secondary:focus[type="submit"] {
-        border-color: #3b3b3b;
-        color: #3b3b3b; }
-        .button.hollow.secondary:hover.disabled, input.hollow.secondary:hover.disabled[type="submit"], .button.hollow.secondary:hover[disabled], input.hollow.secondary:hover[disabled][type="submit"], .button.hollow.secondary:focus.disabled, input.hollow.secondary:focus.disabled[type="submit"], .button.hollow.secondary:focus[disabled], input.hollow.secondary:focus[disabled][type="submit"] {
-          border: 1px solid #767676;
-          color: #767676; }
-    .button.hollow.success, input.hollow.success[type="submit"] {
-      border: 1px solid #3adb76;
-      color: #3adb76; }
-      .button.hollow.success:hover, input.hollow.success:hover[type="submit"], .button.hollow.success:focus, input.hollow.success:focus[type="submit"] {
-        border-color: #157539;
-        color: #157539; }
-        .button.hollow.success:hover.disabled, input.hollow.success:hover.disabled[type="submit"], .button.hollow.success:hover[disabled], input.hollow.success:hover[disabled][type="submit"], .button.hollow.success:focus.disabled, input.hollow.success:focus.disabled[type="submit"], .button.hollow.success:focus[disabled], input.hollow.success:focus[disabled][type="submit"] {
-          border: 1px solid #3adb76;
-          color: #3adb76; }
-    .button.hollow.warning, input.hollow.warning[type="submit"] {
-      border: 1px solid #ffae00;
-      color: #ffae00; }
-      .button.hollow.warning:hover, input.hollow.warning:hover[type="submit"], .button.hollow.warning:focus, input.hollow.warning:focus[type="submit"] {
-        border-color: #805700;
-        color: #805700; }
-        .button.hollow.warning:hover.disabled, input.hollow.warning:hover.disabled[type="submit"], .button.hollow.warning:hover[disabled], input.hollow.warning:hover[disabled][type="submit"], .button.hollow.warning:focus.disabled, input.hollow.warning:focus.disabled[type="submit"], .button.hollow.warning:focus[disabled], input.hollow.warning:focus[disabled][type="submit"] {
-          border: 1px solid #ffae00;
-          color: #ffae00; }
-    .button.hollow.alert, input.hollow.alert[type="submit"] {
-      border: 1px solid #cc4b37;
-      color: #cc4b37; }
-      .button.hollow.alert:hover, input.hollow.alert:hover[type="submit"], .button.hollow.alert:focus, input.hollow.alert:focus[type="submit"] {
-        border-color: #67251a;
-        color: #67251a; }
-        .button.hollow.alert:hover.disabled, input.hollow.alert:hover.disabled[type="submit"], .button.hollow.alert:hover[disabled], input.hollow.alert:hover[disabled][type="submit"], .button.hollow.alert:focus.disabled, input.hollow.alert:focus.disabled[type="submit"], .button.hollow.alert:focus[disabled], input.hollow.alert:focus[disabled][type="submit"] {
-          border: 1px solid #cc4b37;
-          color: #cc4b37; }
-  .button.clear, input.clear[type="submit"] {
-    border: 1px solid #47632d;
-    color: #47632d; }
-    .button.clear, input.clear[type="submit"], .button.clear:hover, input.clear:hover[type="submit"], .button.clear:focus, input.clear:focus[type="submit"] {
-      background-color: transparent; }
-    .button.clear.disabled, input.clear.disabled[type="submit"], .button.clear.disabled:hover, input.clear.disabled:hover[type="submit"], .button.clear.disabled:focus, input.clear.disabled:focus[type="submit"], .button.clear[disabled], input.clear[disabled][type="submit"], .button.clear[disabled]:hover, input.clear[disabled]:hover[type="submit"], .button.clear[disabled]:focus, input.clear[disabled]:focus[type="submit"] {
-      background-color: transparent; }
-    .button.clear:hover, input.clear:hover[type="submit"], .button.clear:focus, input.clear:focus[type="submit"] {
-      border-color: #243217;
-      color: #243217; }
-      .button.clear:hover.disabled, input.clear:hover.disabled[type="submit"], .button.clear:hover[disabled], input.clear:hover[disabled][type="submit"], .button.clear:focus.disabled, input.clear:focus.disabled[type="submit"], .button.clear:focus[disabled], input.clear:focus[disabled][type="submit"] {
-        border: 1px solid #47632d;
-        color: #47632d; }
-    .button.clear, input.clear[type="submit"], .button.clear.disabled, input.clear.disabled[type="submit"], .button.clear[disabled], input.clear[disabled][type="submit"], .button.clear:hover, input.clear:hover[type="submit"], .button.clear:hover.disabled, input.clear:hover.disabled[type="submit"], .button.clear:hover[disabled], input.clear:hover[disabled][type="submit"], .button.clear:focus, input.clear:focus[type="submit"], .button.clear:focus.disabled, input.clear:focus.disabled[type="submit"], .button.clear:focus[disabled], input.clear:focus[disabled][type="submit"] {
-      border-color: transparent; }
-    .button.clear.primary, input.clear.primary[type="submit"] {
-      border: 1px solid #47632d;
-      color: #47632d; }
-      .button.clear.primary:hover, input.clear.primary:hover[type="submit"], .button.clear.primary:focus, input.clear.primary:focus[type="submit"] {
-        border-color: #243217;
-        color: #243217; }
-        .button.clear.primary:hover.disabled, input.clear.primary:hover.disabled[type="submit"], .button.clear.primary:hover[disabled], input.clear.primary:hover[disabled][type="submit"], .button.clear.primary:focus.disabled, input.clear.primary:focus.disabled[type="submit"], .button.clear.primary:focus[disabled], input.clear.primary:focus[disabled][type="submit"] {
-          border: 1px solid #47632d;
-          color: #47632d; }
-      .button.clear.primary, input.clear.primary[type="submit"], .button.clear.primary.disabled, input.clear.primary.disabled[type="submit"], .button.clear.primary[disabled], input.clear.primary[disabled][type="submit"], .button.clear.primary:hover, input.clear.primary:hover[type="submit"], .button.clear.primary:hover.disabled, input.clear.primary:hover.disabled[type="submit"], .button.clear.primary:hover[disabled], input.clear.primary:hover[disabled][type="submit"], .button.clear.primary:focus, input.clear.primary:focus[type="submit"], .button.clear.primary:focus.disabled, input.clear.primary:focus.disabled[type="submit"], .button.clear.primary:focus[disabled], input.clear.primary:focus[disabled][type="submit"] {
-        border-color: transparent; }
-    .button.clear.secondary, input.clear.secondary[type="submit"] {
-      border: 1px solid #767676;
-      color: #767676; }
-      .button.clear.secondary:hover, input.clear.secondary:hover[type="submit"], .button.clear.secondary:focus, input.clear.secondary:focus[type="submit"] {
-        border-color: #3b3b3b;
-        color: #3b3b3b; }
-        .button.clear.secondary:hover.disabled, input.clear.secondary:hover.disabled[type="submit"], .button.clear.secondary:hover[disabled], input.clear.secondary:hover[disabled][type="submit"], .button.clear.secondary:focus.disabled, input.clear.secondary:focus.disabled[type="submit"], .button.clear.secondary:focus[disabled], input.clear.secondary:focus[disabled][type="submit"] {
-          border: 1px solid #767676;
-          color: #767676; }
-      .button.clear.secondary, input.clear.secondary[type="submit"], .button.clear.secondary.disabled, input.clear.secondary.disabled[type="submit"], .button.clear.secondary[disabled], input.clear.secondary[disabled][type="submit"], .button.clear.secondary:hover, input.clear.secondary:hover[type="submit"], .button.clear.secondary:hover.disabled, input.clear.secondary:hover.disabled[type="submit"], .button.clear.secondary:hover[disabled], input.clear.secondary:hover[disabled][type="submit"], .button.clear.secondary:focus, input.clear.secondary:focus[type="submit"], .button.clear.secondary:focus.disabled, input.clear.secondary:focus.disabled[type="submit"], .button.clear.secondary:focus[disabled], input.clear.secondary:focus[disabled][type="submit"] {
-        border-color: transparent; }
-    .button.clear.success, input.clear.success[type="submit"] {
-      border: 1px solid #3adb76;
-      color: #3adb76; }
-      .button.clear.success:hover, input.clear.success:hover[type="submit"], .button.clear.success:focus, input.clear.success:focus[type="submit"] {
-        border-color: #157539;
-        color: #157539; }
-        .button.clear.success:hover.disabled, input.clear.success:hover.disabled[type="submit"], .button.clear.success:hover[disabled], input.clear.success:hover[disabled][type="submit"], .button.clear.success:focus.disabled, input.clear.success:focus.disabled[type="submit"], .button.clear.success:focus[disabled], input.clear.success:focus[disabled][type="submit"] {
-          border: 1px solid #3adb76;
-          color: #3adb76; }
-      .button.clear.success, input.clear.success[type="submit"], .button.clear.success.disabled, input.clear.success.disabled[type="submit"], .button.clear.success[disabled], input.clear.success[disabled][type="submit"], .button.clear.success:hover, input.clear.success:hover[type="submit"], .button.clear.success:hover.disabled, input.clear.success:hover.disabled[type="submit"], .button.clear.success:hover[disabled], input.clear.success:hover[disabled][type="submit"], .button.clear.success:focus, input.clear.success:focus[type="submit"], .button.clear.success:focus.disabled, input.clear.success:focus.disabled[type="submit"], .button.clear.success:focus[disabled], input.clear.success:focus[disabled][type="submit"] {
-        border-color: transparent; }
-    .button.clear.warning, input.clear.warning[type="submit"] {
-      border: 1px solid #ffae00;
-      color: #ffae00; }
-      .button.clear.warning:hover, input.clear.warning:hover[type="submit"], .button.clear.warning:focus, input.clear.warning:focus[type="submit"] {
-        border-color: #805700;
-        color: #805700; }
-        .button.clear.warning:hover.disabled, input.clear.warning:hover.disabled[type="submit"], .button.clear.warning:hover[disabled], input.clear.warning:hover[disabled][type="submit"], .button.clear.warning:focus.disabled, input.clear.warning:focus.disabled[type="submit"], .button.clear.warning:focus[disabled], input.clear.warning:focus[disabled][type="submit"] {
-          border: 1px solid #ffae00;
-          color: #ffae00; }
-      .button.clear.warning, input.clear.warning[type="submit"], .button.clear.warning.disabled, input.clear.warning.disabled[type="submit"], .button.clear.warning[disabled], input.clear.warning[disabled][type="submit"], .button.clear.warning:hover, input.clear.warning:hover[type="submit"], .button.clear.warning:hover.disabled, input.clear.warning:hover.disabled[type="submit"], .button.clear.warning:hover[disabled], input.clear.warning:hover[disabled][type="submit"], .button.clear.warning:focus, input.clear.warning:focus[type="submit"], .button.clear.warning:focus.disabled, input.clear.warning:focus.disabled[type="submit"], .button.clear.warning:focus[disabled], input.clear.warning:focus[disabled][type="submit"] {
-        border-color: transparent; }
-    .button.clear.alert, input.clear.alert[type="submit"] {
-      border: 1px solid #cc4b37;
-      color: #cc4b37; }
-      .button.clear.alert:hover, input.clear.alert:hover[type="submit"], .button.clear.alert:focus, input.clear.alert:focus[type="submit"] {
-        border-color: #67251a;
-        color: #67251a; }
-        .button.clear.alert:hover.disabled, input.clear.alert:hover.disabled[type="submit"], .button.clear.alert:hover[disabled], input.clear.alert:hover[disabled][type="submit"], .button.clear.alert:focus.disabled, input.clear.alert:focus.disabled[type="submit"], .button.clear.alert:focus[disabled], input.clear.alert:focus[disabled][type="submit"] {
-          border: 1px solid #cc4b37;
-          color: #cc4b37; }
-      .button.clear.alert, input.clear.alert[type="submit"], .button.clear.alert.disabled, input.clear.alert.disabled[type="submit"], .button.clear.alert[disabled], input.clear.alert[disabled][type="submit"], .button.clear.alert:hover, input.clear.alert:hover[type="submit"], .button.clear.alert:hover.disabled, input.clear.alert:hover.disabled[type="submit"], .button.clear.alert:hover[disabled], input.clear.alert:hover[disabled][type="submit"], .button.clear.alert:focus, input.clear.alert:focus[type="submit"], .button.clear.alert:focus.disabled, input.clear.alert:focus.disabled[type="submit"], .button.clear.alert:focus[disabled], input.clear.alert:focus[disabled][type="submit"] {
-        border-color: transparent; }
   .button.dropdown::after, input.dropdown[type="submit"]::after {
     display: block;
     width: 0;
@@ -3762,7 +3659,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #fefefe transparent transparent;
+    border-color: #faf9f7 transparent transparent;
     position: relative;
     top: 0.4em;
     display: inline-block;
@@ -3790,7 +3687,7 @@ a.button:hover, a.button:focus {
 
 .accordion {
   margin-left: 0;
-  background: #fefefe;
+  background: #faf9f7;
   list-style-type: none; }
   .accordion[disabled] .accordion-title {
     cursor: not-allowed; }
@@ -3820,16 +3717,16 @@ a.button:hover, a.button:focus {
     top: 50%;
     right: 1rem;
     margin-top: -0.5rem;
-    content: '+'; }
+    content: "+"; }
   .is-active > .accordion-title::before {
-    content: '\2013'; }
+    content: "–"; }
 
 .accordion-content {
   display: none;
   padding: 1rem;
   border: 1px solid #e6e6e6;
   border-bottom: 0;
-  background-color: #fefefe;
+  background-color: #faf9f7;
   color: #2f2b27; }
   :last-child > .accordion-content:last-child {
     border-bottom: 1px solid #e6e6e6; }
@@ -3915,13 +3812,13 @@ a.button:hover, a.button:focus {
 
 .submenu-toggle-text {
   position: absolute !important;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0; }
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important; }
 
 .badge {
   display: inline-block;
@@ -3931,13 +3828,13 @@ a.button:hover, a.button:focus {
   font-size: 0.6rem;
   text-align: center;
   background: #47632d;
-  color: #fefefe; }
+  color: #faf9f7; }
   .badge.primary {
     background: #47632d;
-    color: #fefefe; }
+    color: #faf9f7; }
   .badge.secondary {
     background: #767676;
-    color: #fefefe; }
+    color: #faf9f7; }
   .badge.success {
     background: #3adb76;
     color: #2f2b27; }
@@ -3946,7 +3843,7 @@ a.button:hover, a.button:focus {
     color: #2f2b27; }
   .badge.alert {
     background: #cc4b37;
-    color: #fefefe; }
+    color: #faf9f7; }
 
 .breadcrumbs {
   margin: 0 0 1rem 0;
@@ -3984,10 +3881,12 @@ a.button:hover, a.button:focus {
   margin-bottom: 1rem;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: nowrap;
-      flex-wrap: nowrap;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   -ms-flex-align: stretch;
-      align-items: stretch; }
+      align-items: stretch;
+  -ms-flex-positive: 1;
+      flex-grow: 1; }
   .button-group::before, .button-group::after {
     display: table;
     content: ' ';
@@ -3997,6 +3896,8 @@ a.button:hover, a.button:focus {
         order: 1; }
   .button-group::after {
     clear: both; }
+  .button-group::before, .button-group::after {
+    display: none; }
   .button-group .button, .button-group input[type="submit"] {
     margin: 0;
     margin-right: 1px;
@@ -4014,37 +3915,107 @@ a.button:hover, a.button:focus {
     font-size: 1.25rem; }
   .button-group.expanded .button, .button-group.expanded input[type="submit"] {
     -ms-flex: 1 1 0px;
-        flex: 1 1 0px; }
-  .button-group.primary .button, .button-group.primary input[type="submit"] {
+        flex: 1 1 0px;
+    margin-right: 0; }
+  .button-group.primary .button, .button-group.primary input[type="submit"], .button-group.primary .button.disabled, .button-group.primary input.disabled[type="submit"], .button-group.primary .button[disabled], .button-group.primary input[disabled][type="submit"], .button-group.primary .button.disabled:hover, .button-group.primary input.disabled:hover[type="submit"], .button-group.primary .button[disabled]:hover, .button-group.primary input[disabled]:hover[type="submit"], .button-group.primary .button.disabled:focus, .button-group.primary input.disabled:focus[type="submit"], .button-group.primary .button[disabled]:focus, .button-group.primary input[disabled]:focus[type="submit"] {
     background-color: #47632d;
-    color: #fefefe; }
-    .button-group.primary .button:hover, .button-group.primary input:hover[type="submit"], .button-group.primary .button:focus, .button-group.primary input:focus[type="submit"] {
-      background-color: #394f24;
-      color: #fefefe; }
-  .button-group.secondary .button, .button-group.secondary input[type="submit"] {
+    color: #faf9f7; }
+  .button-group.primary .button:hover, .button-group.primary input:hover[type="submit"], .button-group.primary .button:focus, .button-group.primary input:focus[type="submit"] {
+    background-color: #394f24;
+    color: #faf9f7; }
+  .button-group.secondary .button, .button-group.secondary input[type="submit"], .button-group.secondary .button.disabled, .button-group.secondary input.disabled[type="submit"], .button-group.secondary .button[disabled], .button-group.secondary input[disabled][type="submit"], .button-group.secondary .button.disabled:hover, .button-group.secondary input.disabled:hover[type="submit"], .button-group.secondary .button[disabled]:hover, .button-group.secondary input[disabled]:hover[type="submit"], .button-group.secondary .button.disabled:focus, .button-group.secondary input.disabled:focus[type="submit"], .button-group.secondary .button[disabled]:focus, .button-group.secondary input[disabled]:focus[type="submit"] {
     background-color: #767676;
-    color: #fefefe; }
-    .button-group.secondary .button:hover, .button-group.secondary input:hover[type="submit"], .button-group.secondary .button:focus, .button-group.secondary input:focus[type="submit"] {
-      background-color: #5e5e5e;
-      color: #fefefe; }
-  .button-group.success .button, .button-group.success input[type="submit"] {
+    color: #faf9f7; }
+  .button-group.secondary .button:hover, .button-group.secondary input:hover[type="submit"], .button-group.secondary .button:focus, .button-group.secondary input:focus[type="submit"] {
+    background-color: #5e5e5e;
+    color: #faf9f7; }
+  .button-group.success .button, .button-group.success input[type="submit"], .button-group.success .button.disabled, .button-group.success input.disabled[type="submit"], .button-group.success .button[disabled], .button-group.success input[disabled][type="submit"], .button-group.success .button.disabled:hover, .button-group.success input.disabled:hover[type="submit"], .button-group.success .button[disabled]:hover, .button-group.success input[disabled]:hover[type="submit"], .button-group.success .button.disabled:focus, .button-group.success input.disabled:focus[type="submit"], .button-group.success .button[disabled]:focus, .button-group.success input[disabled]:focus[type="submit"] {
     background-color: #3adb76;
     color: #2f2b27; }
-    .button-group.success .button:hover, .button-group.success input:hover[type="submit"], .button-group.success .button:focus, .button-group.success input:focus[type="submit"] {
-      background-color: #22bb5b;
-      color: #2f2b27; }
-  .button-group.warning .button, .button-group.warning input[type="submit"] {
+  .button-group.success .button:hover, .button-group.success input:hover[type="submit"], .button-group.success .button:focus, .button-group.success input:focus[type="submit"] {
+    background-color: #22bb5b;
+    color: #2f2b27; }
+  .button-group.warning .button, .button-group.warning input[type="submit"], .button-group.warning .button.disabled, .button-group.warning input.disabled[type="submit"], .button-group.warning .button[disabled], .button-group.warning input[disabled][type="submit"], .button-group.warning .button.disabled:hover, .button-group.warning input.disabled:hover[type="submit"], .button-group.warning .button[disabled]:hover, .button-group.warning input[disabled]:hover[type="submit"], .button-group.warning .button.disabled:focus, .button-group.warning input.disabled:focus[type="submit"], .button-group.warning .button[disabled]:focus, .button-group.warning input[disabled]:focus[type="submit"] {
     background-color: #ffae00;
     color: #2f2b27; }
-    .button-group.warning .button:hover, .button-group.warning input:hover[type="submit"], .button-group.warning .button:focus, .button-group.warning input:focus[type="submit"] {
-      background-color: #cc8b00;
-      color: #2f2b27; }
-  .button-group.alert .button, .button-group.alert input[type="submit"] {
+  .button-group.warning .button:hover, .button-group.warning input:hover[type="submit"], .button-group.warning .button:focus, .button-group.warning input:focus[type="submit"] {
+    background-color: #cc8b00;
+    color: #2f2b27; }
+  .button-group.alert .button, .button-group.alert input[type="submit"], .button-group.alert .button.disabled, .button-group.alert input.disabled[type="submit"], .button-group.alert .button[disabled], .button-group.alert input[disabled][type="submit"], .button-group.alert .button.disabled:hover, .button-group.alert input.disabled:hover[type="submit"], .button-group.alert .button[disabled]:hover, .button-group.alert input[disabled]:hover[type="submit"], .button-group.alert .button.disabled:focus, .button-group.alert input.disabled:focus[type="submit"], .button-group.alert .button[disabled]:focus, .button-group.alert input[disabled]:focus[type="submit"] {
     background-color: #cc4b37;
-    color: #fefefe; }
-    .button-group.alert .button:hover, .button-group.alert input:hover[type="submit"], .button-group.alert .button:focus, .button-group.alert input:focus[type="submit"] {
-      background-color: #a53b2a;
-      color: #fefefe; }
+    color: #faf9f7; }
+  .button-group.alert .button:hover, .button-group.alert input:hover[type="submit"], .button-group.alert .button:focus, .button-group.alert input:focus[type="submit"] {
+    background-color: #a53b2a;
+    color: #faf9f7; }
+  .button-group.hollow .button, .button-group.hollow input[type="submit"], .button-group.hollow .button:hover, .button-group.hollow input:hover[type="submit"], .button-group.hollow .button:focus, .button-group.hollow input:focus[type="submit"], .button-group.hollow .button.disabled, .button-group.hollow input.disabled[type="submit"], .button-group.hollow .button.disabled:hover, .button-group.hollow input.disabled:hover[type="submit"], .button-group.hollow .button.disabled:focus, .button-group.hollow input.disabled:focus[type="submit"], .button-group.hollow .button[disabled], .button-group.hollow input[disabled][type="submit"], .button-group.hollow .button[disabled]:hover, .button-group.hollow input[disabled]:hover[type="submit"], .button-group.hollow .button[disabled]:focus, .button-group.hollow input[disabled]:focus[type="submit"] {
+    background-color: transparent; }
+  .button-group.hollow .button, .button-group.hollow input[type="submit"], .button-group.hollow .button.disabled, .button-group.hollow input.disabled[type="submit"], .button-group.hollow .button[disabled], .button-group.hollow input[disabled][type="submit"], .button-group.hollow .button.disabled:hover, .button-group.hollow input.disabled:hover[type="submit"], .button-group.hollow .button[disabled]:hover, .button-group.hollow input[disabled]:hover[type="submit"], .button-group.hollow .button.disabled:focus, .button-group.hollow input.disabled:focus[type="submit"], .button-group.hollow .button[disabled]:focus, .button-group.hollow input[disabled]:focus[type="submit"] {
+    border: 1px solid #47632d;
+    color: #47632d; }
+  .button-group.hollow .button:hover, .button-group.hollow input:hover[type="submit"], .button-group.hollow .button:focus, .button-group.hollow input:focus[type="submit"] {
+    border-color: #243217;
+    color: #243217; }
+  .button-group.hollow.primary .button, .button-group.hollow.primary input[type="submit"], .button-group.hollow.primary .button.disabled, .button-group.hollow.primary input.disabled[type="submit"], .button-group.hollow.primary .button[disabled], .button-group.hollow.primary input[disabled][type="submit"], .button-group.hollow.primary .button.disabled:hover, .button-group.hollow.primary input.disabled:hover[type="submit"], .button-group.hollow.primary .button[disabled]:hover, .button-group.hollow.primary input[disabled]:hover[type="submit"], .button-group.hollow.primary .button.disabled:focus, .button-group.hollow.primary input.disabled:focus[type="submit"], .button-group.hollow.primary .button[disabled]:focus, .button-group.hollow.primary input[disabled]:focus[type="submit"], .button-group.hollow .button.primary, .button-group.hollow input.primary[type="submit"], .button-group.hollow .button.primary.disabled, .button-group.hollow input.primary.disabled[type="submit"], .button-group.hollow .button.primary[disabled], .button-group.hollow input.primary[disabled][type="submit"], .button-group.hollow .button.primary.disabled:hover, .button-group.hollow input.primary.disabled:hover[type="submit"], .button-group.hollow .button.primary[disabled]:hover, .button-group.hollow input.primary[disabled]:hover[type="submit"], .button-group.hollow .button.primary.disabled:focus, .button-group.hollow input.primary.disabled:focus[type="submit"], .button-group.hollow .button.primary[disabled]:focus, .button-group.hollow input.primary[disabled]:focus[type="submit"] {
+    border: 1px solid #47632d;
+    color: #47632d; }
+  .button-group.hollow.primary .button:hover, .button-group.hollow.primary input:hover[type="submit"], .button-group.hollow.primary .button:focus, .button-group.hollow.primary input:focus[type="submit"], .button-group.hollow .button.primary:hover, .button-group.hollow input.primary:hover[type="submit"], .button-group.hollow .button.primary:focus, .button-group.hollow input.primary:focus[type="submit"] {
+    border-color: #243217;
+    color: #243217; }
+  .button-group.hollow.secondary .button, .button-group.hollow.secondary input[type="submit"], .button-group.hollow.secondary .button.disabled, .button-group.hollow.secondary input.disabled[type="submit"], .button-group.hollow.secondary .button[disabled], .button-group.hollow.secondary input[disabled][type="submit"], .button-group.hollow.secondary .button.disabled:hover, .button-group.hollow.secondary input.disabled:hover[type="submit"], .button-group.hollow.secondary .button[disabled]:hover, .button-group.hollow.secondary input[disabled]:hover[type="submit"], .button-group.hollow.secondary .button.disabled:focus, .button-group.hollow.secondary input.disabled:focus[type="submit"], .button-group.hollow.secondary .button[disabled]:focus, .button-group.hollow.secondary input[disabled]:focus[type="submit"], .button-group.hollow .button.secondary, .button-group.hollow input.secondary[type="submit"], .button-group.hollow .button.secondary.disabled, .button-group.hollow input.secondary.disabled[type="submit"], .button-group.hollow .button.secondary[disabled], .button-group.hollow input.secondary[disabled][type="submit"], .button-group.hollow .button.secondary.disabled:hover, .button-group.hollow input.secondary.disabled:hover[type="submit"], .button-group.hollow .button.secondary[disabled]:hover, .button-group.hollow input.secondary[disabled]:hover[type="submit"], .button-group.hollow .button.secondary.disabled:focus, .button-group.hollow input.secondary.disabled:focus[type="submit"], .button-group.hollow .button.secondary[disabled]:focus, .button-group.hollow input.secondary[disabled]:focus[type="submit"] {
+    border: 1px solid #767676;
+    color: #767676; }
+  .button-group.hollow.secondary .button:hover, .button-group.hollow.secondary input:hover[type="submit"], .button-group.hollow.secondary .button:focus, .button-group.hollow.secondary input:focus[type="submit"], .button-group.hollow .button.secondary:hover, .button-group.hollow input.secondary:hover[type="submit"], .button-group.hollow .button.secondary:focus, .button-group.hollow input.secondary:focus[type="submit"] {
+    border-color: #3b3b3b;
+    color: #3b3b3b; }
+  .button-group.hollow.success .button, .button-group.hollow.success input[type="submit"], .button-group.hollow.success .button.disabled, .button-group.hollow.success input.disabled[type="submit"], .button-group.hollow.success .button[disabled], .button-group.hollow.success input[disabled][type="submit"], .button-group.hollow.success .button.disabled:hover, .button-group.hollow.success input.disabled:hover[type="submit"], .button-group.hollow.success .button[disabled]:hover, .button-group.hollow.success input[disabled]:hover[type="submit"], .button-group.hollow.success .button.disabled:focus, .button-group.hollow.success input.disabled:focus[type="submit"], .button-group.hollow.success .button[disabled]:focus, .button-group.hollow.success input[disabled]:focus[type="submit"], .button-group.hollow .button.success, .button-group.hollow input.success[type="submit"], .button-group.hollow .button.success.disabled, .button-group.hollow input.success.disabled[type="submit"], .button-group.hollow .button.success[disabled], .button-group.hollow input.success[disabled][type="submit"], .button-group.hollow .button.success.disabled:hover, .button-group.hollow input.success.disabled:hover[type="submit"], .button-group.hollow .button.success[disabled]:hover, .button-group.hollow input.success[disabled]:hover[type="submit"], .button-group.hollow .button.success.disabled:focus, .button-group.hollow input.success.disabled:focus[type="submit"], .button-group.hollow .button.success[disabled]:focus, .button-group.hollow input.success[disabled]:focus[type="submit"] {
+    border: 1px solid #3adb76;
+    color: #3adb76; }
+  .button-group.hollow.success .button:hover, .button-group.hollow.success input:hover[type="submit"], .button-group.hollow.success .button:focus, .button-group.hollow.success input:focus[type="submit"], .button-group.hollow .button.success:hover, .button-group.hollow input.success:hover[type="submit"], .button-group.hollow .button.success:focus, .button-group.hollow input.success:focus[type="submit"] {
+    border-color: #157539;
+    color: #157539; }
+  .button-group.hollow.warning .button, .button-group.hollow.warning input[type="submit"], .button-group.hollow.warning .button.disabled, .button-group.hollow.warning input.disabled[type="submit"], .button-group.hollow.warning .button[disabled], .button-group.hollow.warning input[disabled][type="submit"], .button-group.hollow.warning .button.disabled:hover, .button-group.hollow.warning input.disabled:hover[type="submit"], .button-group.hollow.warning .button[disabled]:hover, .button-group.hollow.warning input[disabled]:hover[type="submit"], .button-group.hollow.warning .button.disabled:focus, .button-group.hollow.warning input.disabled:focus[type="submit"], .button-group.hollow.warning .button[disabled]:focus, .button-group.hollow.warning input[disabled]:focus[type="submit"], .button-group.hollow .button.warning, .button-group.hollow input.warning[type="submit"], .button-group.hollow .button.warning.disabled, .button-group.hollow input.warning.disabled[type="submit"], .button-group.hollow .button.warning[disabled], .button-group.hollow input.warning[disabled][type="submit"], .button-group.hollow .button.warning.disabled:hover, .button-group.hollow input.warning.disabled:hover[type="submit"], .button-group.hollow .button.warning[disabled]:hover, .button-group.hollow input.warning[disabled]:hover[type="submit"], .button-group.hollow .button.warning.disabled:focus, .button-group.hollow input.warning.disabled:focus[type="submit"], .button-group.hollow .button.warning[disabled]:focus, .button-group.hollow input.warning[disabled]:focus[type="submit"] {
+    border: 1px solid #ffae00;
+    color: #ffae00; }
+  .button-group.hollow.warning .button:hover, .button-group.hollow.warning input:hover[type="submit"], .button-group.hollow.warning .button:focus, .button-group.hollow.warning input:focus[type="submit"], .button-group.hollow .button.warning:hover, .button-group.hollow input.warning:hover[type="submit"], .button-group.hollow .button.warning:focus, .button-group.hollow input.warning:focus[type="submit"] {
+    border-color: #805700;
+    color: #805700; }
+  .button-group.hollow.alert .button, .button-group.hollow.alert input[type="submit"], .button-group.hollow.alert .button.disabled, .button-group.hollow.alert input.disabled[type="submit"], .button-group.hollow.alert .button[disabled], .button-group.hollow.alert input[disabled][type="submit"], .button-group.hollow.alert .button.disabled:hover, .button-group.hollow.alert input.disabled:hover[type="submit"], .button-group.hollow.alert .button[disabled]:hover, .button-group.hollow.alert input[disabled]:hover[type="submit"], .button-group.hollow.alert .button.disabled:focus, .button-group.hollow.alert input.disabled:focus[type="submit"], .button-group.hollow.alert .button[disabled]:focus, .button-group.hollow.alert input[disabled]:focus[type="submit"], .button-group.hollow .button.alert, .button-group.hollow input.alert[type="submit"], .button-group.hollow .button.alert.disabled, .button-group.hollow input.alert.disabled[type="submit"], .button-group.hollow .button.alert[disabled], .button-group.hollow input.alert[disabled][type="submit"], .button-group.hollow .button.alert.disabled:hover, .button-group.hollow input.alert.disabled:hover[type="submit"], .button-group.hollow .button.alert[disabled]:hover, .button-group.hollow input.alert[disabled]:hover[type="submit"], .button-group.hollow .button.alert.disabled:focus, .button-group.hollow input.alert.disabled:focus[type="submit"], .button-group.hollow .button.alert[disabled]:focus, .button-group.hollow input.alert[disabled]:focus[type="submit"] {
+    border: 1px solid #cc4b37;
+    color: #cc4b37; }
+  .button-group.hollow.alert .button:hover, .button-group.hollow.alert input:hover[type="submit"], .button-group.hollow.alert .button:focus, .button-group.hollow.alert input:focus[type="submit"], .button-group.hollow .button.alert:hover, .button-group.hollow input.alert:hover[type="submit"], .button-group.hollow .button.alert:focus, .button-group.hollow input.alert:focus[type="submit"] {
+    border-color: #67251a;
+    color: #67251a; }
+  .button-group.clear .button, .button-group.clear input[type="submit"], .button-group.clear .button:hover, .button-group.clear input:hover[type="submit"], .button-group.clear .button:focus, .button-group.clear input:focus[type="submit"], .button-group.clear .button.disabled, .button-group.clear input.disabled[type="submit"], .button-group.clear .button.disabled:hover, .button-group.clear input.disabled:hover[type="submit"], .button-group.clear .button.disabled:focus, .button-group.clear input.disabled:focus[type="submit"], .button-group.clear .button[disabled], .button-group.clear input[disabled][type="submit"], .button-group.clear .button[disabled]:hover, .button-group.clear input[disabled]:hover[type="submit"], .button-group.clear .button[disabled]:focus, .button-group.clear input[disabled]:focus[type="submit"] {
+    border-color: transparent;
+    background-color: transparent; }
+  .button-group.clear .button, .button-group.clear input[type="submit"], .button-group.clear .button.disabled, .button-group.clear input.disabled[type="submit"], .button-group.clear .button[disabled], .button-group.clear input[disabled][type="submit"], .button-group.clear .button.disabled:hover, .button-group.clear input.disabled:hover[type="submit"], .button-group.clear .button[disabled]:hover, .button-group.clear input[disabled]:hover[type="submit"], .button-group.clear .button.disabled:focus, .button-group.clear input.disabled:focus[type="submit"], .button-group.clear .button[disabled]:focus, .button-group.clear input[disabled]:focus[type="submit"] {
+    color: #47632d; }
+  .button-group.clear .button:hover, .button-group.clear input:hover[type="submit"], .button-group.clear .button:focus, .button-group.clear input:focus[type="submit"] {
+    color: #243217; }
+  .button-group.clear.primary .button, .button-group.clear.primary input[type="submit"], .button-group.clear.primary .button.disabled, .button-group.clear.primary input.disabled[type="submit"], .button-group.clear.primary .button[disabled], .button-group.clear.primary input[disabled][type="submit"], .button-group.clear.primary .button.disabled:hover, .button-group.clear.primary input.disabled:hover[type="submit"], .button-group.clear.primary .button[disabled]:hover, .button-group.clear.primary input[disabled]:hover[type="submit"], .button-group.clear.primary .button.disabled:focus, .button-group.clear.primary input.disabled:focus[type="submit"], .button-group.clear.primary .button[disabled]:focus, .button-group.clear.primary input[disabled]:focus[type="submit"], .button-group.clear .button.primary, .button-group.clear input.primary[type="submit"], .button-group.clear .button.primary.disabled, .button-group.clear input.primary.disabled[type="submit"], .button-group.clear .button.primary[disabled], .button-group.clear input.primary[disabled][type="submit"], .button-group.clear .button.primary.disabled:hover, .button-group.clear input.primary.disabled:hover[type="submit"], .button-group.clear .button.primary[disabled]:hover, .button-group.clear input.primary[disabled]:hover[type="submit"], .button-group.clear .button.primary.disabled:focus, .button-group.clear input.primary.disabled:focus[type="submit"], .button-group.clear .button.primary[disabled]:focus, .button-group.clear input.primary[disabled]:focus[type="submit"] {
+    color: #47632d; }
+  .button-group.clear.primary .button:hover, .button-group.clear.primary input:hover[type="submit"], .button-group.clear.primary .button:focus, .button-group.clear.primary input:focus[type="submit"], .button-group.clear .button.primary:hover, .button-group.clear input.primary:hover[type="submit"], .button-group.clear .button.primary:focus, .button-group.clear input.primary:focus[type="submit"] {
+    color: #243217; }
+  .button-group.clear.secondary .button, .button-group.clear.secondary input[type="submit"], .button-group.clear.secondary .button.disabled, .button-group.clear.secondary input.disabled[type="submit"], .button-group.clear.secondary .button[disabled], .button-group.clear.secondary input[disabled][type="submit"], .button-group.clear.secondary .button.disabled:hover, .button-group.clear.secondary input.disabled:hover[type="submit"], .button-group.clear.secondary .button[disabled]:hover, .button-group.clear.secondary input[disabled]:hover[type="submit"], .button-group.clear.secondary .button.disabled:focus, .button-group.clear.secondary input.disabled:focus[type="submit"], .button-group.clear.secondary .button[disabled]:focus, .button-group.clear.secondary input[disabled]:focus[type="submit"], .button-group.clear .button.secondary, .button-group.clear input.secondary[type="submit"], .button-group.clear .button.secondary.disabled, .button-group.clear input.secondary.disabled[type="submit"], .button-group.clear .button.secondary[disabled], .button-group.clear input.secondary[disabled][type="submit"], .button-group.clear .button.secondary.disabled:hover, .button-group.clear input.secondary.disabled:hover[type="submit"], .button-group.clear .button.secondary[disabled]:hover, .button-group.clear input.secondary[disabled]:hover[type="submit"], .button-group.clear .button.secondary.disabled:focus, .button-group.clear input.secondary.disabled:focus[type="submit"], .button-group.clear .button.secondary[disabled]:focus, .button-group.clear input.secondary[disabled]:focus[type="submit"] {
+    color: #767676; }
+  .button-group.clear.secondary .button:hover, .button-group.clear.secondary input:hover[type="submit"], .button-group.clear.secondary .button:focus, .button-group.clear.secondary input:focus[type="submit"], .button-group.clear .button.secondary:hover, .button-group.clear input.secondary:hover[type="submit"], .button-group.clear .button.secondary:focus, .button-group.clear input.secondary:focus[type="submit"] {
+    color: #3b3b3b; }
+  .button-group.clear.success .button, .button-group.clear.success input[type="submit"], .button-group.clear.success .button.disabled, .button-group.clear.success input.disabled[type="submit"], .button-group.clear.success .button[disabled], .button-group.clear.success input[disabled][type="submit"], .button-group.clear.success .button.disabled:hover, .button-group.clear.success input.disabled:hover[type="submit"], .button-group.clear.success .button[disabled]:hover, .button-group.clear.success input[disabled]:hover[type="submit"], .button-group.clear.success .button.disabled:focus, .button-group.clear.success input.disabled:focus[type="submit"], .button-group.clear.success .button[disabled]:focus, .button-group.clear.success input[disabled]:focus[type="submit"], .button-group.clear .button.success, .button-group.clear input.success[type="submit"], .button-group.clear .button.success.disabled, .button-group.clear input.success.disabled[type="submit"], .button-group.clear .button.success[disabled], .button-group.clear input.success[disabled][type="submit"], .button-group.clear .button.success.disabled:hover, .button-group.clear input.success.disabled:hover[type="submit"], .button-group.clear .button.success[disabled]:hover, .button-group.clear input.success[disabled]:hover[type="submit"], .button-group.clear .button.success.disabled:focus, .button-group.clear input.success.disabled:focus[type="submit"], .button-group.clear .button.success[disabled]:focus, .button-group.clear input.success[disabled]:focus[type="submit"] {
+    color: #3adb76; }
+  .button-group.clear.success .button:hover, .button-group.clear.success input:hover[type="submit"], .button-group.clear.success .button:focus, .button-group.clear.success input:focus[type="submit"], .button-group.clear .button.success:hover, .button-group.clear input.success:hover[type="submit"], .button-group.clear .button.success:focus, .button-group.clear input.success:focus[type="submit"] {
+    color: #157539; }
+  .button-group.clear.warning .button, .button-group.clear.warning input[type="submit"], .button-group.clear.warning .button.disabled, .button-group.clear.warning input.disabled[type="submit"], .button-group.clear.warning .button[disabled], .button-group.clear.warning input[disabled][type="submit"], .button-group.clear.warning .button.disabled:hover, .button-group.clear.warning input.disabled:hover[type="submit"], .button-group.clear.warning .button[disabled]:hover, .button-group.clear.warning input[disabled]:hover[type="submit"], .button-group.clear.warning .button.disabled:focus, .button-group.clear.warning input.disabled:focus[type="submit"], .button-group.clear.warning .button[disabled]:focus, .button-group.clear.warning input[disabled]:focus[type="submit"], .button-group.clear .button.warning, .button-group.clear input.warning[type="submit"], .button-group.clear .button.warning.disabled, .button-group.clear input.warning.disabled[type="submit"], .button-group.clear .button.warning[disabled], .button-group.clear input.warning[disabled][type="submit"], .button-group.clear .button.warning.disabled:hover, .button-group.clear input.warning.disabled:hover[type="submit"], .button-group.clear .button.warning[disabled]:hover, .button-group.clear input.warning[disabled]:hover[type="submit"], .button-group.clear .button.warning.disabled:focus, .button-group.clear input.warning.disabled:focus[type="submit"], .button-group.clear .button.warning[disabled]:focus, .button-group.clear input.warning[disabled]:focus[type="submit"] {
+    color: #ffae00; }
+  .button-group.clear.warning .button:hover, .button-group.clear.warning input:hover[type="submit"], .button-group.clear.warning .button:focus, .button-group.clear.warning input:focus[type="submit"], .button-group.clear .button.warning:hover, .button-group.clear input.warning:hover[type="submit"], .button-group.clear .button.warning:focus, .button-group.clear input.warning:focus[type="submit"] {
+    color: #805700; }
+  .button-group.clear.alert .button, .button-group.clear.alert input[type="submit"], .button-group.clear.alert .button.disabled, .button-group.clear.alert input.disabled[type="submit"], .button-group.clear.alert .button[disabled], .button-group.clear.alert input[disabled][type="submit"], .button-group.clear.alert .button.disabled:hover, .button-group.clear.alert input.disabled:hover[type="submit"], .button-group.clear.alert .button[disabled]:hover, .button-group.clear.alert input[disabled]:hover[type="submit"], .button-group.clear.alert .button.disabled:focus, .button-group.clear.alert input.disabled:focus[type="submit"], .button-group.clear.alert .button[disabled]:focus, .button-group.clear.alert input[disabled]:focus[type="submit"], .button-group.clear .button.alert, .button-group.clear input.alert[type="submit"], .button-group.clear .button.alert.disabled, .button-group.clear input.alert.disabled[type="submit"], .button-group.clear .button.alert[disabled], .button-group.clear input.alert[disabled][type="submit"], .button-group.clear .button.alert.disabled:hover, .button-group.clear input.alert.disabled:hover[type="submit"], .button-group.clear .button.alert[disabled]:hover, .button-group.clear input.alert[disabled]:hover[type="submit"], .button-group.clear .button.alert.disabled:focus, .button-group.clear input.alert.disabled:focus[type="submit"], .button-group.clear .button.alert[disabled]:focus, .button-group.clear input.alert[disabled]:focus[type="submit"] {
+    color: #cc4b37; }
+  .button-group.clear.alert .button:hover, .button-group.clear.alert input:hover[type="submit"], .button-group.clear.alert .button:focus, .button-group.clear.alert input:focus[type="submit"], .button-group.clear .button.alert:hover, .button-group.clear input.alert:hover[type="submit"], .button-group.clear .button.alert:focus, .button-group.clear input.alert:focus[type="submit"] {
+    color: #67251a; }
+  .button-group.no-gaps .button, .button-group.no-gaps input[type="submit"] {
+    margin-right: -0.0625rem; }
+    .button-group.no-gaps .button + .button, .button-group.no-gaps input[type="submit"] + .button, .button-group.no-gaps .button + input[type="submit"], .button-group.no-gaps input[type="submit"] + input[type="submit"] {
+      border-left-color: transparent; }
   .button-group.stacked, .button-group.stacked-for-small, .button-group.stacked-for-medium {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap; }
@@ -4055,7 +4026,8 @@ a.button:hover, a.button:focus {
         margin-bottom: 0; }
     .button-group.stacked.expanded .button, .button-group.stacked.expanded input[type="submit"], .button-group.stacked-for-small.expanded .button, .button-group.stacked-for-small.expanded input[type="submit"], .button-group.stacked-for-medium.expanded .button, .button-group.stacked-for-medium.expanded input[type="submit"] {
       -ms-flex: 1 1 0px;
-          flex: 1 1 0px; }
+          flex: 1 1 0px;
+      margin-right: 0; }
   @media print, screen and (min-width: 40em) {
     .button-group.stacked-for-small .button, .button-group.stacked-for-small input[type="submit"] {
       -ms-flex: 0 0 auto;
@@ -4066,13 +4038,13 @@ a.button:hover, a.button:focus {
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
       margin-bottom: 0; } }
-  @media screen and (max-width: 39.99875em) {
+  @media print, screen and (max-width: 39.99875em) {
     .button-group.stacked-for-small.expanded {
       display: block; }
       .button-group.stacked-for-small.expanded .button, .button-group.stacked-for-small.expanded input[type="submit"] {
         display: block;
         margin-right: 0; } }
-  @media screen and (max-width: 63.99875em) {
+  @media print, screen and (max-width: 63.99875em) {
     .button-group.stacked-for-medium.expanded {
       display: block; }
       .button-group.stacked-for-medium.expanded .button, .button-group.stacked-for-medium.expanded input[type="submit"] {
@@ -4085,7 +4057,7 @@ a.button:hover, a.button:focus {
   padding: 1rem;
   border: 1px solid rgba(47, 43, 39, 0.25);
   border-radius: 0;
-  background-color: white;
+  background-color: #fefefe;
   color: #2f2b27; }
   .callout > :first-child {
     margin-top: 0; }
@@ -4127,7 +4099,7 @@ a.button:hover, a.button:focus {
   margin-bottom: 1rem;
   border: 1px solid #ccc;
   border-radius: 0;
-  background: #fefefe;
+  background: #faf9f7;
   box-shadow: none;
   overflow: hidden;
   color: #2f2b27; }
@@ -4156,6 +4128,7 @@ a.button:hover, a.button:focus {
 
 .close-button {
   position: absolute;
+  z-index: 10;
   color: #8a8a8a;
   cursor: pointer; }
   [data-whatinput='mouse'] .close-button {
@@ -4167,7 +4140,7 @@ a.button:hover, a.button:focus {
     top: 0.33em;
     font-size: 1.5em;
     line-height: 1; }
-  .close-button, .close-button.medium {
+  .close-button.medium, .close-button {
     right: 1rem;
     top: 0.5rem;
     font-size: 2em;
@@ -4299,10 +4272,10 @@ a.button:hover, a.button:focus {
       text-align: center; }
   .menu .is-active > a {
     background: #786554;
-    color: #fefefe; }
+    color: #faf9f7; }
   .menu .active > a {
     background: #786554;
-    color: #fefefe; }
+    color: #faf9f7; }
   .menu.align-left {
     -ms-flex-pack: start;
         justify-content: flex-start; }
@@ -4365,8 +4338,8 @@ a.button:hover, a.button:focus {
     display: block;
     width: 100%;
     height: 2px;
-    background: #fefefe;
-    box-shadow: 0 7px 0 #fefefe, 0 14px 0 #fefefe;
+    background: #faf9f7;
+    box-shadow: 0 7px 0 #faf9f7, 0 14px 0 #faf9f7;
     content: ''; }
   .menu-icon:hover::after {
     background: #cacaca;
@@ -4403,7 +4376,7 @@ a.button:hover, a.button:focus {
 
 .drilldown a {
   padding: 0.7rem 1rem;
-  background: #fefefe; }
+  background: #faf9f7; }
 
 .drilldown .is-drilldown-submenu {
   position: absolute;
@@ -4411,7 +4384,7 @@ a.button:hover, a.button:focus {
   left: 100%;
   z-index: -1;
   width: 100%;
-  background: #fefefe;
+  background: #faf9f7;
   transition: transform 0.15s linear; }
   .drilldown .is-drilldown-submenu.is-active {
     z-index: 1;
@@ -4493,7 +4466,7 @@ a.button:hover, a.button:focus {
   visibility: hidden;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #faf9f7;
   font-size: 1rem; }
   .dropdown-pane.is-opening {
     display: block; }
@@ -4541,7 +4514,7 @@ a.button:hover, a.button:focus {
   outline: 0; }
 
 .dropdown.menu > li > a {
-  background: #fefefe;
+  background: #faf9f7;
   padding: 0.7rem 1rem; }
 
 .dropdown.menu > li.is-active > a {
@@ -4740,7 +4713,7 @@ a.button:hover, a.button:focus {
   display: none;
   min-width: 200px;
   border: 1px solid #cacaca;
-  background: #fefefe; }
+  background: #faf9f7; }
   .dropdown .is-dropdown-submenu a {
     padding: 0.7rem 1rem; }
   .is-dropdown-submenu .is-dropdown-submenu-parent > a::after {
@@ -4805,13 +4778,13 @@ a.button:hover, a.button:focus {
   white-space: nowrap;
   cursor: default;
   background: #47632d;
-  color: #fefefe; }
+  color: #faf9f7; }
   .label.primary {
     background: #47632d;
-    color: #fefefe; }
+    color: #faf9f7; }
   .label.secondary {
     background: #767676;
-    color: #fefefe; }
+    color: #faf9f7; }
   .label.success {
     background: #3adb76;
     color: #2f2b27; }
@@ -4820,7 +4793,7 @@ a.button:hover, a.button:focus {
     color: #2f2b27; }
   .label.alert {
     background: #cc4b37;
-    color: #fefefe; }
+    color: #faf9f7; }
 
 .media-object {
   display: -ms-flexbox;
@@ -4830,7 +4803,7 @@ a.button:hover, a.button:focus {
       flex-wrap: nowrap; }
   .media-object img {
     max-width: none; }
-  @media screen and (max-width: 39.99875em) {
+  @media print, screen and (max-width: 39.99875em) {
     .media-object.stack-for-small {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; } }
@@ -4844,7 +4817,7 @@ a.button:hover, a.button:focus {
     padding-left: 1rem; }
   .media-object-section > :last-child {
     margin-bottom: 0; }
-  @media screen and (max-width: 39.99875em) {
+  @media print, screen and (max-width: 39.99875em) {
     .stack-for-small .media-object-section {
       padding: 0;
       padding-bottom: 1rem;
@@ -4868,7 +4841,7 @@ a.button:hover, a.button:focus {
   width: 100%;
   height: 100%;
   transition: opacity 0.5s ease, visibility 0.5s ease;
-  background: rgba(254, 254, 254, 0.25);
+  background: rgba(250, 249, 247, 0.25);
   opacity: 0;
   visibility: hidden;
   overflow: hidden; }
@@ -5011,9 +4984,10 @@ a.button:hover, a.button:focus {
 .off-canvas-content {
   -ms-transform: none;
       transform: none;
-  transition: transform 0.5s ease;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
+  .off-canvas-content.has-transition-overlap, .off-canvas-content.has-transition-push {
+    transition: transform 0.5s ease; }
   .off-canvas-content.has-transition-push {
     -ms-transform: translate(0, 0);
         transform: translate(0, 0); }
@@ -5209,7 +5183,7 @@ a.button:hover, a.button:focus {
   margin-bottom: 0;
   padding: 1rem;
   background-color: rgba(47, 43, 39, 0.5);
-  color: #fefefe; }
+  color: #faf9f7; }
 
 .orbit-previous, .orbit-next {
   position: absolute;
@@ -5218,7 +5192,7 @@ a.button:hover, a.button:focus {
       transform: translateY(-50%);
   z-index: 10;
   padding: 1rem;
-  color: #fefefe; }
+  color: #faf9f7; }
   [data-whatinput='mouse'] .orbit-previous, [data-whatinput='mouse'] .orbit-next {
     outline: 0; }
   .orbit-previous:hover, .orbit-next:hover, .orbit-previous:active, .orbit-next:active, .orbit-previous:focus, .orbit-next:focus {
@@ -5283,7 +5257,7 @@ a.button:hover, a.button:focus {
   .pagination .current, .pagination .pager__item--current {
     padding: 0.1875rem 0.625rem;
     background: #47632d;
-    color: #fefefe;
+    color: #faf9f7;
     cursor: default; }
   .pagination .disabled {
     padding: 0.1875rem 0.625rem;
@@ -5300,13 +5274,13 @@ a.button:hover, a.button:focus {
 .pagination-previous.disabled::before {
   display: inline-block;
   margin-right: 0.5rem;
-  content: '\00ab'; }
+  content: "«"; }
 
 .pagination-next a::after,
 .pagination-next.disabled::after {
   display: inline-block;
   margin-left: 0.5rem;
-  content: '\00bb'; }
+  content: "»"; }
 
 .progress {
   height: 1rem;
@@ -5340,7 +5314,7 @@ a.button:hover, a.button:focus {
   margin: 0;
   font-size: 0.75rem;
   font-weight: bold;
-  color: #fefefe;
+  color: #faf9f7;
   white-space: nowrap; }
 
 .slider {
@@ -5351,7 +5325,6 @@ a.button:hover, a.button:focus {
   background-color: #e6e6e6;
   cursor: pointer;
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none;
   -ms-touch-action: none;
@@ -5468,7 +5441,7 @@ html.is-reveal-open {
   padding: 1rem;
   border: 1px solid #cacaca;
   border-radius: 0;
-  background-color: #fefefe;
+  background-color: #faf9f7;
   position: relative;
   top: 100px;
   margin-right: auto;
@@ -5513,7 +5486,7 @@ html.is-reveal-open {
     margin-left: 0;
     border: 0;
     border-radius: 0; }
-  @media screen and (max-width: 39.99875em) {
+  @media print, screen and (max-width: 39.99875em) {
     .reveal {
       top: 0;
       right: 0;
@@ -5536,9 +5509,8 @@ html.is-reveal-open {
   outline: 0;
   font-size: 0.875rem;
   font-weight: bold;
-  color: #fefefe;
+  color: #faf9f7;
   -webkit-user-select: none;
-     -moz-user-select: none;
       -ms-user-select: none;
           user-select: none; }
 
@@ -5569,13 +5541,16 @@ html.is-reveal-open {
     height: 1.5rem;
     transform: translate3d(0, 0, 0);
     border-radius: 0;
-    background: #fefefe;
+    background: #faf9f7;
     transition: all 0.25s ease-out;
     content: ''; }
   input:checked ~ .switch-paddle {
     background: #47632d; }
     input:checked ~ .switch-paddle::after {
       left: 2.25rem; }
+  input:disabled ~ .switch-paddle {
+    cursor: not-allowed;
+    opacity: 0.5; }
   [data-whatinput='mouse'] input:focus ~ .switch-paddle {
     outline: 0; }
 
@@ -5646,16 +5621,16 @@ table {
   thead,
   tbody,
   tfoot {
-    border: 1px solid #f1f1f1;
-    background-color: #fefefe; }
+    border: 1px solid #f0eee8;
+    background-color: #faf9f7; }
   caption {
     padding: 0.5rem 0.625rem 0.625rem;
     font-weight: bold; }
   thead {
-    background: #f8f8f8;
+    background: #f5f3ef;
     color: #2f2b27; }
   tfoot {
-    background: #f1f1f1;
+    background: #f0eee8;
     color: #2f2b27; }
   thead tr,
   tfoot tr {
@@ -5672,15 +5647,15 @@ table {
     padding: 0.5rem 0.625rem 0.625rem; }
   tbody tr:nth-child(even) {
     border-bottom: 0;
-    background-color: #f1f1f1; }
+    background-color: #f0eee8; }
   table.unstriped tbody {
-    background-color: #fefefe; }
+    background-color: #faf9f7; }
     table.unstriped tbody tr {
       border-bottom: 0;
-      border-bottom: 1px solid #f1f1f1;
-      background-color: #fefefe; }
+      border-bottom: 1px solid #f0eee8;
+      background-color: #faf9f7; }
 
-@media screen and (max-width: 63.99875em) {
+@media print, screen and (max-width: 63.99875em) {
   table.stack thead {
     display: none; }
   table.stack tfoot {
@@ -5698,16 +5673,16 @@ table.scroll {
   overflow-x: auto; }
 
 table.hover thead tr:hover {
-  background-color: #f3f3f3; }
+  background-color: #f1efe9; }
 
 table.hover tfoot tr:hover {
-  background-color: #ececec; }
+  background-color: #ede9e1; }
 
 table.hover tbody tr:hover {
-  background-color: #f9f9f9; }
+  background-color: #f6f4f1; }
 
 table.hover:not(.unstriped) tr:nth-of-type(even):hover {
-  background-color: #ececec; }
+  background-color: #ece9e1; }
 
 .table-scroll {
   overflow-x: auto; }
@@ -5715,7 +5690,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs {
   margin: 0;
   border: 1px solid #e6e6e6;
-  background: #fefefe;
+  background: #faf9f7;
   list-style-type: none; }
   .tabs::before, .tabs::after {
     display: table;
@@ -5740,7 +5715,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs.primary {
   background: #47632d; }
   .tabs.primary > li > a {
-    color: #fefefe; }
+    color: #faf9f7; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
       background: #507033; }
 
@@ -5755,7 +5730,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     [data-whatinput='mouse'] .tabs-title > a {
       outline: 0; }
     .tabs-title > a:hover {
-      background: #fefefe;
+      background: #faf9f7;
       color: #3d5527; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
@@ -5764,7 +5739,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
 .tabs-content {
   border: 1px solid #e6e6e6;
   border-top: 0;
-  background: #fefefe;
+  background: #faf9f7;
   color: #2f2b27;
   transition: all 0.5s ease; }
 
@@ -5782,7 +5757,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   display: inline-block;
   max-width: 100%;
   margin-bottom: 1rem;
-  border: solid 4px #fefefe;
+  border: solid 4px #faf9f7;
   border-radius: 0;
   box-shadow: 0 0 0 1px rgba(47, 43, 39, 0.2);
   line-height: 0; }
@@ -5797,7 +5772,7 @@ a.thumbnail {
 .title-bar {
   padding: 0.5rem;
   background: #2f2b27;
-  color: #fefefe;
+  color: #faf9f7;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: start;
@@ -5837,7 +5812,7 @@ a.thumbnail {
   border-radius: 0;
   background-color: #2f2b27;
   font-size: 80%;
-  color: #fefefe; }
+  color: #faf9f7; }
   .tooltip::before {
     position: absolute; }
   .tooltip.bottom::before {
@@ -5927,7 +5902,7 @@ a.thumbnail {
       flex-wrap: wrap; }
   .top-bar,
   .top-bar ul {
-    background-color: #2f2b27; }
+    background-color: #23263E; }
   .top-bar ul ul {
     background-color: #fff; }
   .top-bar input {
@@ -5955,7 +5930,7 @@ a.thumbnail {
         -ms-flex: 0 1 auto;
             flex: 0 1 auto;
         margin-left: auto; } }
-  @media screen and (max-width: 63.99875em) {
+  @media print, screen and (max-width: 63.99875em) {
     .top-bar.stacked-for-medium {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
@@ -5964,7 +5939,7 @@ a.thumbnail {
         -ms-flex: 0 0 100%;
             flex: 0 0 100%;
         max-width: 100%; } }
-  @media screen and (max-width: 74.99875em) {
+  @media print, screen and (max-width: 74.99875em) {
     .top-bar.stacked-for-large {
       -ms-flex-wrap: wrap;
           flex-wrap: wrap; }
@@ -5990,7 +5965,7 @@ a.thumbnail {
 .invisible {
   visibility: hidden; }
 
-@media screen and (max-width: 39.99875em) {
+@media print, screen and (max-width: 39.99875em) {
   .hide-for-small-only {
     display: none !important; } }
 
@@ -6006,7 +5981,7 @@ a.thumbnail {
   .show-for-medium {
     display: none !important; } }
 
-@media screen and (min-width: 40em) and (max-width: 63.99875em) {
+@media print, screen and (min-width: 40em) and (max-width: 63.99875em) {
   .hide-for-medium-only {
     display: none !important; } }
 
@@ -6022,7 +5997,7 @@ a.thumbnail {
   .show-for-large {
     display: none !important; } }
 
-@media screen and (min-width: 64em) and (max-width: 74.99875em) {
+@media print, screen and (min-width: 64em) and (max-width: 74.99875em) {
   .hide-for-large-only {
     display: none !important; } }
 
@@ -6033,21 +6008,21 @@ a.thumbnail {
 .show-for-sr,
 .show-on-focus {
   position: absolute !important;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  white-space: nowrap;
-  border: 0; }
+  width: 1px !important;
+  height: 1px !important;
+  padding: 0 !important;
+  overflow: hidden !important;
+  clip: rect(0, 0, 0, 0) !important;
+  white-space: nowrap !important;
+  border: 0 !important; }
 
 .show-on-focus:active, .show-on-focus:focus {
   position: static !important;
-  width: auto;
-  height: auto;
-  overflow: visible;
-  clip: auto;
-  white-space: normal; }
+  width: auto !important;
+  height: auto !important;
+  overflow: visible !important;
+  clip: auto !important;
+  white-space: normal !important; }
 
 .show-for-landscape,
 .hide-for-portrait {
@@ -6269,7 +6244,7 @@ footer {
   padding-top: 1rem;
   /*color: lighten($tan-4, 40%);*/
   color: #F6DBBB;
-  background: #574938; }
+  background: #662B23; }
   footer svg {
     width: 100%;
     height: auto; }
@@ -6282,7 +6257,8 @@ footer {
 .subfooter {
   max-width: 100%;
   padding: 1rem;
-  background: #382f24; }
+  background: #382f24;
+  background: #401B16; }
   @media print, screen and (min-width: 40em) {
     .subfooter {
       max-width: 90rem;
@@ -6359,20 +6335,21 @@ footer {
       justify-content: space-around; }
 
 .l-region--header .topnav {
-  background: #786554; }
+  background: #80352B; }
 
 header.l-header {
   text-align: center;
-  padding-bottom: 0.5rem;
+  padding: 2rem 0;
   border-bottom: 4px double;
   border-top: 4px double; }
 
 .site-name {
-  margin: 0 1rem;
+  margin: 1rem;
   color: #2f2b27; }
 
 .site-name__icon {
-  padding-top: 0.625rem; }
+  padding-top: 0.625rem;
+  display: none; }
   .site-name__icon svg {
     fill: #2f2b27; }
   .site-name__icon svg {
@@ -6388,23 +6365,24 @@ header.l-header {
     margin-bottom: 0; }
 
 header nav {
-  background: #786554; }
+  background: #786554;
+  background: #80352B; }
 
 header .menu {
   text-align: left; }
   header .menu__items {
     background: #786554; }
   header .menu a {
-    color: #fefefe; }
+    color: #faf9f7; }
     header .menu a:hover {
       background: #F6DBBB;
       text-decoration: underline; }
 
 .dropdown.menu > li > a {
-  background: #786554; }
+  background: #80352B; }
 
 .dropdown.menu > li > a {
-  background: #786554; }
+  background: #80352B; }
 
 .learn-more .panel-pane {
   border-bottom: 1px solid #ccc;
@@ -6443,9 +6421,11 @@ header .menu {
       padding-right: 0.9375rem;
       padding-left: 0.9375rem; } }
   .collection-grid__collection {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
     width: calc(50% - 1.25rem);
-    margin-right: 0.625rem;
     margin-left: 0.625rem;
+    margin-right: 0.625rem;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -6735,16 +6715,16 @@ button.search-dropdown-toggle.button {
     display: inline-block; }
   .mobile-nav-panel .menu a,
   .offcanvas-full-screen-menu a {
-    color: #fefefe; }
+    color: #faf9f7; }
     .mobile-nav-panel .menu a:hover,
     .offcanvas-full-screen-menu a:hover {
-      color: #b2b2b2; }
+      color: #bfb299; }
 
 .offcanvas-full-screen-close {
-  color: #fefefe;
+  color: #faf9f7;
   font-size: 5rem; }
   .offcanvas-full-screen-close:hover {
-    color: #b2b2b2; }
+    color: #bfb299; }
 
 .topnav .l-region--navigation {
   display: none; }
@@ -6776,7 +6756,7 @@ button.search-dropdown-toggle.button {
   flex-direction: row; }
   .topnav,
   .topnav ul {
-    background-color: #2f2b27; }
+    background-color: #23263E; }
   .topnav ul ul {
     background-color: #fff; }
   .topnav input {
@@ -6815,7 +6795,7 @@ button.search-dropdown-toggle.button {
       font-size: 1.4rem;
       display: inline-block;
       font-family: "IM Fell Great Primer SC", serif;
-      color: #fefefe; }
+      color: #faf9f7; }
       @media print, screen and (min-width: 40em) {
         .topnav .site-branding__name {
           font-size: 2rem; } }
@@ -6936,4 +6916,4 @@ html {
     .pager button:hover {
       background: #e6e6e6; }
 
-/*# sourceMappingURL=islandarchives.styles.css.map */
+/*# sourceMappingURL=pwc.styles.css.map */

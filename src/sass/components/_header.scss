@@ -11,19 +11,20 @@
     justify-content: space-around;
   }
   .topnav {
-    background: $tan-3;
+    background: $wine;
   }
 }
 
 header.l-header {
   text-align: center;
-  padding-bottom: $global_padding/2;
+  //padding-bottom: $global_padding/2;
+  padding: 2rem 0;
   @include double_borders();
   //border-top: 4px double;
   //border-bottom: 4px double;
 }
 .site-name {
-  margin: 0 $global-margin;
+  margin: $global-margin;
   color: $black;
 }
 .site-slogan {
@@ -40,6 +41,7 @@ header.l-header {
     width: 3rem;
     height: 3rem;
   }
+  display: none;
 }
 .site-name__container {
   display: flex;
@@ -49,9 +51,10 @@ header.l-header {
   }
 }
 
-$dropdownmenu-background: $tan-3;
+$dropdownmenu-background: $wine;
 header nav {
   background: $tan-3;
+  background: $wine;
 }
 header .menu {
   //display:none;
