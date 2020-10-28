@@ -6457,13 +6457,76 @@ header .menu {
     .collection-grid__collection--description > :last-child {
       margin-bottom: 0; }
 
+ul.lp_nav_tiles {
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  ul.lp_nav_tiles > li {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: calc(25% - 1.25rem);
+    margin-left: 0.625rem;
+    margin-right: 0.625rem;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+        flex-direction: column;
+    -ms-flex-positive: 1;
+        flex-grow: 1;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    background: none;
+    box-shadow: none;
+    overflow: hidden;
+    color: inherit; }
+    ul.lp_nav_tiles > li > :last-child {
+      margin-bottom: 0; }
+  @media print, screen and (min-width: 40em) {
+    ul.lp_nav_tiles {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+
 /*
  *landing page tweaks
  */
-.landing-page .pageTitle,
-.landing-page .breadcrumbs,
-.landing-page .tabs {
+.front .pageTitle,
+.front .breadcrumbs,
+.front .tabs {
   display: none; }
+
+.front .node__content {
+  padding-right: 0.625rem;
+  padding-left: 0.625rem;
+  max-width: 90rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-flow: row wrap;
+      flex-flow: row wrap; }
+  @media print, screen and (min-width: 40em) {
+    .front .node__content {
+      padding-right: 0.9375rem;
+      padding-left: 0.9375rem; } }
+  .front .node__content #field_slideshow_image {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: calc(50% - 1.25rem);
+    margin-left: 0.625rem;
+    margin-right: 0.625rem; }
+  .front .node__content .field--name-field-site-info {
+    -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+    width: calc(50% - 1.25rem);
+    margin-left: 0.625rem;
+    margin-right: 0.625rem; }
 
 /*
  *cards
