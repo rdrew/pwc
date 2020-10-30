@@ -2948,6 +2948,7 @@ li,
 h1,
 h2,
 .site-slogan,
+.lp-collection-category > a,
 h3,
 h4,
 .collection-grid__collection--title,
@@ -2984,7 +2985,8 @@ small {
 
 h1, .h1,
 h2,
-.site-slogan, .h2,
+.site-slogan,
+.lp-collection-category > a, .h2,
 h3, .h3,
 h4,
 .collection-grid__collection--title, .h4,
@@ -2997,7 +2999,8 @@ h6, .h6 {
   text-rendering: optimizeLegibility; }
   h1 small, .h1 small,
   h2 small,
-  .site-slogan small, .h2 small,
+  .site-slogan small,
+  .lp-collection-category > a small, .h2 small,
   h3 small, .h3 small,
   h4 small,
   .collection-grid__collection--title small, .h4 small,
@@ -3014,7 +3017,8 @@ h1, .h1 {
 
 
 h2,
-.site-slogan, .h2 {
+.site-slogan,
+.lp-collection-category > a, .h2 {
   font-size: 1.5625rem;
   line-height: 1.4;
   margin-top: 0;
@@ -3051,7 +3055,8 @@ h6, .h6 {
     font-size: 2.625rem; }
   
   h2,
-  .site-slogan, .h2 {
+  .site-slogan,
+  .lp-collection-category > a, .h2 {
     font-size: 1.5625rem; }
   h3, .h3 {
     font-size: 1rem; }
@@ -3271,12 +3276,14 @@ ul.no-bullet, ol.no-bullet {
   p,
   h2,
   .site-slogan,
+  .lp-collection-category > a,
   h3 {
     orphans: 3;
     widows: 3; }
   
   h2,
   .site-slogan,
+  .lp-collection-category > a,
   h3 {
     page-break-after: avoid; }
   .print-break-inside {
@@ -6219,10 +6226,10 @@ a.thumbnail {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem; } }
 
-.card h2, .card .site-slogan {
+.card h2, .card .site-slogan, .card .lp-collection-category > a {
   font-size: 1.6875rem; }
   @media screen and (min-width: 73.25em) {
-    .card h2, .card .site-slogan {
+    .card h2, .card .site-slogan, .card .lp-collection-category > a {
       font-size: 2.125rem; } }
 
 .islandora-solr-facet-wrapper {
@@ -6404,6 +6411,45 @@ header .menu {
     margin-bottom: 0; }
   .ol_books .media-object .thumbnail img {
     width: 100px; }
+
+.block--menu-menu-landing-page-block-menu > ul {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between; }
+
+.lp-collection-category > ul {
+  display: -ms-flexbox;
+  display: flex; }
+
+.lp-block-menu {
+  list-style-type: none;
+  padding: 0;
+  margin: 0; }
+
+.lp-collection-tile {
+  height: 220px;
+  width: 160px;
+  margin-right: 1rem;
+  display: block;
+  background-repeat: no-repeat;
+  background-position: left top;
+  padding-top: 200px;
+  margin-bottom: 1rem; }
+  .lp-collection-tile#college_times {
+    background-image: url(/islandora/object/pwc%3A2082/datastream/TN/view); }
+  .lp-collection-tile#observer {
+    background-image: url(/islandora/object/pwc%3A3298/datastream/TN/view); }
+  .lp-collection-tile#calendars {
+    background-image: url(/islandora/object/pwc%3A381/datastream/TN/view); }
+  .lp-collection-tile#images {
+    background-image: url(/islandora/object/pwc%3A1006/datastream/TN/view); }
+
+#themes > ul {
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-direction: column;
+      flex-direction: column; }
 
 .collection-grid {
   list-style-type: none;
