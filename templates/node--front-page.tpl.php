@@ -104,31 +104,5 @@
       print render($content);
     ?>
   </div>
-<ul class="lp_nav_tiles">
-  <li class="tile">
-    <span> Newspapers </span>
-    <ul>
-      <li>College Times</li>
-      <li>Observer</li>
-    </ul>
-  </li>
-  <li class="tile">
-    <span>Calendars</span>
-  </li>
-  <li class="tile">
-    <span>Images</span>
-  </li>
-  <li class="tile">
-    <span>Themes</span>
-<ul>
-<li><a href="/athletics" title="">Athletics</a></li>
-<li><a href="/buildings" title="">Buildings of PWC</a></li>
-<li><a href="/spirit" title="">College Spirit</a></li>
-<li><a href="/life" title="">Life at PWC</a></li>
-<li><a href="/history" title="">PWC: A Short History</a></li>
-<li><a href="/reunion-2003" title="">Respecting the Standards of the Past</a></li>
-</ul>
-  </li>
-</ul>
 
 </article>

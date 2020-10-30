@@ -1,47 +1,77 @@
 .collection-grid {
   list-style-type: none;
   @include xy-grid-container();
-    @include xy-grid;
-
+  @include xy-grid;
 
   &__collection {
-  @include xy-cell(6);
+    @include xy-cell(6);
 
-  @include card-container(none, inherit, $global-margin, 1px solid #ccc, 0px, none);
-
-
+    @include card-container(
+      none,
+      inherit,
+      $global-margin,
+      1px solid #ccc,
+      0px,
+      none
+    );
   }
   &__collection--title {
     @include card-divider;
-@extend h4;
+    @extend h4;
   }
   &__collection--description {
     @include card-section;
-
   }
 }
+
+ul.lp_nav_tiles {
+  &>li {
+    @include xy-cell(3);
+    @include card-container(
+      none,
+      inherit,
+      $global-margin,
+      1px solid #ccc,
+      0px,
+      none
+    );
+}
+  @include xy-grid-container();
+  @include xy-grid;
+    }
+
 /*
  *landing page tweaks
  */
-.landing-page {
+.front {
   .pageTitle,
   .breadcrumbs,
   .tabs {
+    display: none;
+  }
+  .node__content {
+  @include xy-grid-container();
+  @include xy-grid;
+  #field_slideshow_image {
 
-    display:none;
+    @include xy-cell(6);
+  }
+  .field--name-field-site-info {
 
+    @include xy-cell(6);
+  }
   }
 }
 /*
  *cards
  */
-.card_icon { 
+.card_icon {
   svg {
     width: 100%;
-    height:auto; 
+    height: auto;
     fill: $black;
   }
-  display:none;
+  display: none;
 }
 .interactive .wheel,
 .learn_more .telescope,
@@ -49,9 +79,7 @@
   display: block;
 }
 .card_icon {
-
   width: rem-calc(40);
   float: left;
   margin-right: $global-margin/2;
-
 }
