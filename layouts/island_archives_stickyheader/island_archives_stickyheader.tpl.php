@@ -9,7 +9,7 @@
 ////#######################################################################
 
 //image path
-$image_path = drupal_get_path('theme', 'islandarchives') . '/images/';
+$image_path = drupal_get_path('theme', 'pwc') . '/images/';
 
 
 ?>
