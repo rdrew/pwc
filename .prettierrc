@@ -1,0 +1,8 @@
+{
+  "overrides": [
+    {
+      "files": ".tpl.php",
+      "options": { "parser": "html" }
+    }
+  ]
+}
