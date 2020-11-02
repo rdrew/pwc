@@ -23,6 +23,9 @@ function pwc_menu_tree__menu_block__1(&$variables) {
 function pwc_menu_tree__menu_block__2(&$variables) {
     return '<ul class="main-menu__items dropdown menu" data-dropdown-menu>' . $variables['tree'] . '</ul>';
 }
+function pwc_menu_tree__menu_landing_page_block_menu(&$variables) {
+    return '<ul class="lp-block-menu">' . $variables['tree'] . '</ul>';
+}
 
 function pwc_form_alter(&$form, &$form_state, $form_id) {
 	// target a single form
