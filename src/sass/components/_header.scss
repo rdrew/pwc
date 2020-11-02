@@ -39,9 +39,8 @@ header.l-header {
 
   svg {
     width: 3rem;
-    height: 3rem;
+    height: rem-calc(30);
   }
-  display: none;
 }
 .site-name__container {
   display: flex;
