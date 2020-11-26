@@ -2,6 +2,9 @@
 @import url("https://fonts.googleapis.com/css?family=IM+Fell+French+Canon|IM+Fell+French+Canon+SC|IM+Fell+Great+Primer|IM+Fell+Great+Primer+SC");
 @import url("https://fonts.googleapis.com/css?family=Vollkorn+SC:400,600|Vollkorn:400,400i,600,600i&display=swap&subset=cyrillic");
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;1,400;1,500&family=Lato:ital,wght@0,400;1,300;1,400&display=swap");
+h1 {
+  font-size: 0.76923em; }
+
 /*$card-divider-background: $light-gray;*/
 /**
  * Foundation for Sites
@@ -3052,14 +3055,14 @@ h6, .h6 {
 
 @media print, screen and (min-width: 40em) {
   h1, .h1 {
-    font-size: 2.625rem; }
+    font-size: 2.197rem; }
   
   h2,
   .site-slogan,
   .lp-collection-category > a, .h2 {
-    font-size: 1.5625rem; }
+    font-size: 1.69rem; }
   h3, .h3 {
-    font-size: 1rem; }
+    font-size: 1.3rem; }
   
   h4,
   .collection-grid__collection--title, .h4 {
@@ -3071,7 +3074,7 @@ h6, .h6 {
 
 a {
   line-height: inherit;
-  color: #47632d;
+  color: #A12D1A;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
@@ -6265,7 +6268,7 @@ footer {
   max-width: 100%;
   padding: 1rem;
   background: #382f24;
-  background: #401B16; }
+  background: #23263E; }
   @media print, screen and (min-width: 40em) {
     .subfooter {
       max-width: 90rem;
@@ -6352,15 +6355,15 @@ header.l-header {
 
 .site-name {
   margin: 1rem;
-  color: #2f2b27; }
+  color: #2f2b27;
+  font-size: 1.3em; }
 
-.site-name__icon {
-  padding-top: 0.625rem; }
-  .site-name__icon svg {
-    fill: #2f2b27; }
-  .site-name__icon svg {
-    width: 3rem;
-    height: 1.875rem; }
+.site-name__icon svg {
+  fill: #2f2b27; }
+
+.site-name__icon svg {
+  height: 70px;
+  width: 60px; }
 
 .site-name__container {
   display: -ms-flexbox;
@@ -6425,6 +6428,10 @@ header .menu {
   list-style-type: none;
   padding: 0;
   margin: 0; }
+
+nav#block-menu-menu-landing-page-block-menu {
+  margin-top: 4rem;
+  padding: 0 1rem; }
 
 .lp-collection-tile {
   height: 220px;
@@ -6541,7 +6548,6 @@ ul.lp_nav_tiles {
 /*
  *landing page tweaks
  */
-.front .pageTitle,
 .front .breadcrumbs,
 .front .tabs {
   display: none; }
@@ -6592,6 +6598,20 @@ ul.lp_nav_tiles {
   width: 2.5rem;
   float: left;
   margin-right: 0.5rem; }
+
+.bx-wrapper {
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  background: none; }
+  .bx-wrapper img {
+    width: 753px; }
+
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%; }
 
 .l-main {
   padding-top: 1rem; }
@@ -6654,7 +6674,7 @@ button.search-dropdown-toggle.button {
     display: flex;
     -ms-flex-align: center;
         align-items: center; }
-  .search-block-form .container-inline input[type='submit'] {
+  .search-block-form .container-inline input[type="submit"] {
     margin-bottom: 0;
     height: 5rem;
     display: none; }
@@ -6677,32 +6697,32 @@ button.search-dropdown-toggle.button {
   transition: all 0.4s linear;
   padding-left: 1rem;
   padding-right: 1rem; }
-  .dropdown-content input[type='text'] {
+  .dropdown-content input[type="text"] {
     max-width: 37.5rem;
     padding-left: 1rem;
     margin-bottom: 0;
     height: 0;
     padding: 0;
     padding-left: 1rem;
-    font-size: 3rem;
+    font-size: 1.3em;
     border: 0px;
+    width: 25rem;
     transition: all 0.4s linear; }
-  .dropdown-content input[type='text'] {
+  .dropdown-content input[type="text"] {
     height: 0; }
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show .dropdown-content {
   border-bottom: 4px double;
   border-top: 4px double;
-  height: 175px; }
-  .show .dropdown-content input[type='text'] {
-    height: 4.5rem;
+  height: 209px; }
+  .show .dropdown-content input[type="text"] {
+    height: 3.125rem;
     padding: initial;
     padding-left: 1rem;
-    font-size: 3rem;
+    font-size: 1.3em;
     border-bottom: 4px double;
-    border-top: 4px double;
-    width: 37.5rem; }
+    border-top: 4px double; }
 
 .islandora-solr-simple-search-form input[type="submit"],
 .islandora-solr-simple-search-form label {

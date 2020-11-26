@@ -46,7 +46,7 @@ button.search-dropdown-toggle.button {
     display: flex;
     align-items: center;
   }
-  input[type='submit'] {
+  input[type="submit"] {
     margin-bottom: 0;
     height: rem-calc(80);
     //font-size: 3rem;
@@ -70,7 +70,7 @@ button.search-dropdown-toggle.button {
   padding-left: $global-padding;
   padding-right: $global-padding;
 
-  input[type='text'] {
+  input[type="text"] {
     //margin-left: 1rem;
     max-width: rem-calc(600);
     //margin-right: 1rem;
@@ -79,24 +79,24 @@ button.search-dropdown-toggle.button {
     height: rem-calc(0);
     padding: 0;
     padding-left: 1rem;
-    font-size: 3rem;
+    font-size: ms(1);
     border: 0px;
+    width: rem-calc(400);
     transition: all 0.4s linear;
   }
-  input[type='text'] {
+  input[type="text"] {
     height: 0;
   }
 }
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show .dropdown-content {
   @include double_borders;
-  height: 175px;
-  input[type='text'] {
-    height: 4.5rem;
+  height: 209px;
+  input[type="text"] {
+    height: rem-calc(50);
     padding: initial;
     padding-left: 1rem;
-    font-size: 3rem;
+    font-size: ms(1);
     @include double_borders();
-    width: rem-calc(600);
   }
 }
