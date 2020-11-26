@@ -26,6 +26,7 @@ header.l-header {
 .site-name {
   margin: $global-margin;
   color: $black;
+  font-size: ms(1);
 }
 .site-slogan {
   @extend h2;
@@ -35,11 +36,12 @@ header.l-header {
   svg {
     fill: $black;
   }
-  padding-top: rem-calc(10);
+  //padding-top: rem-calc(10);
 
   svg {
-    width: 3rem;
-    height: rem-calc(30);
+    //width: 3rem;
+    height: 70px;
+    width: 60px;
   }
 }
 .site-name__container {

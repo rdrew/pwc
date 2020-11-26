@@ -17,6 +17,10 @@
   padding: 0;
   margin: 0;
 }
+nav#block-menu-menu-landing-page-block-menu {
+  margin-top: $global-margin * 4;
+  padding: 0 $global-padding;
+}
 .lp-collection-tile {
   height: 220px;
   width: 160px;
@@ -91,7 +95,7 @@ ul.lp_nav_tiles {
  *landing page tweaks
  */
 .front {
-  .pageTitle,
+  //.pageTitle,
   .breadcrumbs,
   .tabs {
     display: none;
@@ -127,4 +131,22 @@ ul.lp_nav_tiles {
   width: rem-calc(40);
   float: left;
   margin-right: $global-margin/2;
+}
+//slider
+.bx-wrapper {
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+  border: none;
+  margin-bottom: 0;
+  background: none;
+  img {
+    width: 753px;
+  }
+}
+.bx-wrapper .bx-pager,
+.bx-wrapper .bx-controls-auto {
+  position: absolute;
+  bottom: -30px;
+  width: 100%;
 }
