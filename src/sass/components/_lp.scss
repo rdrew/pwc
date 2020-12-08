@@ -1,4 +1,7 @@
 //@format
+.front .node__content {
+  padding: 0;
+}
 .block--menu-menu-landing-page-block-menu > ul {
   display: flex;
   justify-content: space-between;
@@ -49,32 +52,57 @@ nav#block-menu-menu-landing-page-block-menu {
 #themes > ul {
   @include menu-direction(vertical);
 }
-.collection-grid {
-  list-style-type: none;
-  @include xy-grid-container();
-  @include xy-grid;
+//.collection-grid {
+//list-style-type: none;
+//@include xy-grid-container();
+//@include xy-grid;
 
-  &__collection {
-    @include xy-cell(6);
+//&__collection {
+//@include xy-cell(6);
 
-    @include card-container(
-      none,
-      inherit,
-      $global-margin,
-      1px solid #ccc,
-      0px,
-      none
-    );
-  }
-  &__collection--title {
-    @include card-divider;
-    @extend h4;
-  }
-  &__collection--description {
-    @include card-section;
-  }
+//@include card-container(
+//none,
+//inherit,
+//$global-margin,
+//1px solid #ccc,
+//0px,
+//none
+//);
+//}
+//&__collection--title {
+//@include card-divider;
+//@extend h4;
+//}
+//&__collection--description {
+//@include card-section;
+//}
+//}
+.lp-block-wrapper {
+  border: 2px solid #dcdcdc;
+  padding: $global-padding;
+  //padding-top: 0;
+  position: relative;
+  padding-top: 1.1rem;
+  border-radius: 6px;
 }
-
+.lp-block-header {
+  background: #fff;
+  position: absolute;
+  margin-top: -42px !important;
+  top: -10;
+}
+//nav > .lp-block-menu {
+//.lp-collection-category {
+//background: #000;
+//}
+//& > li {
+//border: 1px solid #ccc;
+//padding: $global-padding / 2;
+//padding-top: 0;
+//&.lp-collection-category {
+//}
+//}
+//}
 ul.lp_nav_tiles {
   & > li {
     @include xy-cell(3);
@@ -96,8 +124,7 @@ ul.lp_nav_tiles {
  */
 .front {
   //.pageTitle,
-  .breadcrumbs,
-  .tabs {
+  .breadcrumbs {
     display: none;
   }
   .node__content {
