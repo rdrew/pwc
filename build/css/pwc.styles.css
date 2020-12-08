@@ -6454,7 +6454,8 @@ header .menu {
     width: 100px; }
 
 .front .node__content {
-  padding: 0; }
+  padding: 0;
+  padding-left: 0; }
 
 .block--menu-menu-landing-page-block-menu > ul {
   display: -ms-flexbox;
@@ -6472,17 +6473,17 @@ header .menu {
   margin: 0; }
 
 nav#block-menu-menu-landing-page-block-menu {
-  margin-top: 4rem;
-  padding: 0 1rem; }
+  margin-top: 4rem; }
 
 .lp-collection-tile {
   height: 220px;
   width: 160px;
+  background-size: cover;
   margin-right: 1rem;
   display: block;
   background-repeat: no-repeat;
   background-position: left top;
-  padding-top: 200px;
+  padding-top: 230px;
   margin-bottom: 1rem; }
   .lp-collection-tile#college_times {
     background-image: url(/islandora/object/pwc%3A2082/datastream/TN/view); }
@@ -6493,6 +6494,10 @@ nav#block-menu-menu-landing-page-block-menu {
   .lp-collection-tile#images {
     background-image: url(/islandora/object/pwc%3A1006/datastream/TN/view); }
 
+#calendars,
+#images {
+  margin-right: 0 !important; }
+
 #themes > ul {
   -ms-flex-wrap: nowrap;
       flex-wrap: nowrap;
@@ -6500,11 +6505,11 @@ nav#block-menu-menu-landing-page-block-menu {
       flex-direction: column; }
 
 .lp-block-wrapper {
-  border: 2px solid #dcdcdc;
+  border: 3px solid #dcdcdc;
   padding: 1rem;
   position: relative;
   padding-top: 1.1rem;
-  border-radius: 6px; }
+  border-radius: 12px; }
 
 .lp-block-header {
   background: #fff;
