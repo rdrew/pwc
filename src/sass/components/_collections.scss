@@ -1,0 +1,22 @@
+//@format
+.islandora-basic-collection-grid {
+  @include xy-grid-container();
+  @include xy-grid;
+}
+.islandora-basic-collection-object {
+  @include xy-cell(6);
+  display: flex;
+  justify-content: space-around;
+  @include card-container(
+    none,
+    inherit,
+    $global-margin,
+    1px solid #ccc,
+    0px,
+    none
+  );
+}
+.islandora-basic-collection-thumb {
+  display: flex;
+  justify-content: space-around;
+}
