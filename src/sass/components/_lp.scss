@@ -1,7 +1,21 @@
 //@format
+.field.field--name-field-site-info .field__label {
+  @extend h2;
+}
+h1.pageTitle {
+  margin: 1rem 0;
+}
+
+div#field_slideshow_image {
+  margin-left: 0 !important;
+  border: 3px solid #dcdcdc;
+  padding: $global-padding;
+  //padding-top: 0;
+  padding-top: 1.1rem;
+  border-radius: 12px;
+}
 .front .node__content {
   padding: 0;
-  padding-left: 0;
 }
 .block--menu-menu-landing-page-block-menu > ul {
   display: flex;
@@ -135,8 +149,9 @@ ul.lp_nav_tiles {
     display: none;
   }
   .node__content {
-    @include xy-grid-container();
+    //@include xy-grid-container();
     @include xy-grid;
+    padding-left: 0 !important;
     #field_slideshow_image {
       @include xy-cell(6);
     }

@@ -2951,6 +2951,7 @@ li,
 h1,
 h2,
 .site-slogan,
+.field.field--name-field-site-info .field__label,
 .lp-collection-category > a,
 h3,
 h4,
@@ -2988,6 +2989,7 @@ small {
 h1, .h1,
 h2,
 .site-slogan,
+.field.field--name-field-site-info .field__label,
 .lp-collection-category > a, .h2,
 h3, .h3,
 h4, .h4,
@@ -3001,6 +3003,7 @@ h6, .h6 {
   h1 small, .h1 small,
   h2 small,
   .site-slogan small,
+  .field.field--name-field-site-info .field__label small,
   .lp-collection-category > a small, .h2 small,
   h3 small, .h3 small,
   h4 small, .h4 small,
@@ -3018,6 +3021,7 @@ h1, .h1 {
 
 h2,
 .site-slogan,
+.field.field--name-field-site-info .field__label,
 .lp-collection-category > a, .h2 {
   font-size: 1.5625rem;
   line-height: 1.4;
@@ -3054,6 +3058,7 @@ h6, .h6 {
   
   h2,
   .site-slogan,
+  .field.field--name-field-site-info .field__label,
   .lp-collection-category > a, .h2 {
     font-size: 1.69rem; }
   h3, .h3 {
@@ -3272,6 +3277,7 @@ ul.no-bullet, ol.no-bullet {
   p,
   h2,
   .site-slogan,
+  .field.field--name-field-site-info .field__label,
   .lp-collection-category > a,
   h3 {
     orphans: 3;
@@ -3279,6 +3285,7 @@ ul.no-bullet, ol.no-bullet {
   
   h2,
   .site-slogan,
+  .field.field--name-field-site-info .field__label,
   .lp-collection-category > a,
   h3 {
     page-break-after: avoid; }
@@ -6222,10 +6229,10 @@ a.thumbnail {
         padding-right: 0.9375rem;
         padding-left: 0.9375rem; } }
 
-.card h2, .card .site-slogan, .card .lp-collection-category > a {
+.card h2, .card .site-slogan, .card .field.field--name-field-site-info .field__label, .field.field--name-field-site-info .card .field__label, .card .lp-collection-category > a {
   font-size: 1.6875rem; }
   @media screen and (min-width: 73.25em) {
-    .card h2, .card .site-slogan, .card .lp-collection-category > a {
+    .card h2, .card .site-slogan, .card .field.field--name-field-site-info .field__label, .field.field--name-field-site-info .card .field__label, .card .lp-collection-category > a {
       font-size: 2.125rem; } }
 
 .islandora-basic-collection-grid {
@@ -6388,7 +6395,7 @@ footer {
 
 header.l-header {
   text-align: center;
-  padding: 2rem 0;
+  padding: 1rem 0 0.7rem 0;
   border-bottom: 4px double;
   border-top: 4px double; }
 
@@ -6453,9 +6460,18 @@ header .menu {
   .ol_books .media-object .thumbnail img {
     width: 100px; }
 
+h1.pageTitle {
+  margin: 1rem 0; }
+
+div#field_slideshow_image {
+  margin-left: 0 !important;
+  border: 3px solid #dcdcdc;
+  padding: 1rem;
+  padding-top: 1.1rem;
+  border-radius: 12px; }
+
 .front .node__content {
-  padding: 0;
-  padding-left: 0; }
+  padding: 0; }
 
 .block--menu-menu-landing-page-block-menu > ul {
   display: -ms-flexbox;
@@ -6560,19 +6576,11 @@ ul.lp_nav_tiles {
   display: none; }
 
 .front .node__content {
-  padding-right: 0.625rem;
-  padding-left: 0.625rem;
-  max-width: 90rem;
-  margin-left: auto;
-  margin-right: auto;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-flow: row wrap;
-      flex-flow: row wrap; }
-  @media print, screen and (min-width: 40em) {
-    .front .node__content {
-      padding-right: 0.9375rem;
-      padding-left: 0.9375rem; } }
+      flex-flow: row wrap;
+  padding-left: 0 !important; }
   .front .node__content #field_slideshow_image {
     -ms-flex: 0 0 auto;
         flex: 0 0 auto;
