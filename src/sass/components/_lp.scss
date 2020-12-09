@@ -20,11 +20,14 @@ div#field_slideshow_image {
 .block--menu-menu-landing-page-block-menu > ul {
   display: flex;
   justify-content: space-between;
+  width: 100%;
 }
 .lp-collection-category {
   & > ul {
     //border: 1px solid #ccc;
     display: flex;
+    justify-content: space-between;
+    width: 100%;
   }
   & > a {
     @extend h2;
