@@ -6253,7 +6253,7 @@ a.thumbnail {
 .islandora-basic-collection-object {
   -ms-flex: 0 0 auto;
       flex: 0 0 auto;
-  width: calc(50% - 1.25rem);
+  width: calc(25% - 1.25rem);
   margin-left: 0.625rem;
   margin-right: 0.625rem;
   display: -ms-flexbox;
@@ -6266,8 +6266,8 @@ a.thumbnail {
   -ms-flex-positive: 1;
       flex-grow: 1;
   margin-bottom: 1rem;
-  border: 1px solid #ccc;
-  border-radius: 0px;
+  border: 0px;
+  border-radius: none;
   background: none;
   box-shadow: none;
   overflow: hidden;
@@ -6280,6 +6280,13 @@ a.thumbnail {
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around; }
+
+dd.islandora-basic-collection-caption {
+  text-align: center; }
+
+nav:not(.mm-menu) {
+  display: -ms-flexbox;
+  display: flex; }
 
 .islandora-solr-facet-wrapper {
   border-bottom: 4px double #A88F71;
@@ -6477,11 +6484,15 @@ div#field_slideshow_image {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: justify;
-      justify-content: space-between; }
+      justify-content: space-between;
+  width: 100%; }
 
 .lp-collection-category > ul {
   display: -ms-flexbox;
-  display: flex; }
+  display: flex;
+  -ms-flex-pack: justify;
+      justify-content: space-between;
+  width: 100%; }
 
 .lp-block-menu {
   list-style-type: none;
