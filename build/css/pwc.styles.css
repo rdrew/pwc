@@ -3013,7 +3013,7 @@ h6, .h6 {
     color: #cacaca; }
 
 h1, .h1 {
-  font-size: 2.625rem;
+  font-size: 1.69rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -3023,7 +3023,7 @@ h2,
 .site-slogan,
 .field.field--name-field-site-info .field__label,
 .lp-collection-category > a, .h2 {
-  font-size: 1.5625rem;
+  font-size: 1.3rem;
   line-height: 1.4;
   margin-top: 0;
   margin-bottom: 0.5rem; }
@@ -6480,13 +6480,6 @@ div#field_slideshow_image {
 .front .node__content {
   padding: 0; }
 
-.block--menu-menu-landing-page-block-menu > ul {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: justify;
-      justify-content: space-between;
-  width: 100%; }
-
 .lp-collection-category > ul {
   display: -ms-flexbox;
   display: flex;
@@ -6497,7 +6490,18 @@ div#field_slideshow_image {
 .lp-block-menu {
   list-style-type: none;
   padding: 0;
-  margin: 0; }
+  margin: 0;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-direction: column;
+      flex-direction: column;
+  width: 100%; }
+  @media print, screen and (min-width: 64em) {
+    .lp-block-menu {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between; } }
 
 nav#block-menu-menu-landing-page-block-menu {
   margin-top: 4rem; }
@@ -6511,7 +6515,18 @@ nav#block-menu-menu-landing-page-block-menu {
   background-repeat: no-repeat;
   background-position: left top;
   padding-top: 230px;
+  margin-bottom: 1rem;
   margin-bottom: 1rem; }
+  @media print, screen and (min-width: 64em) {
+    .lp-collection-tile {
+      margin-bottom: initial; } }
+  @media print, screen and (min-width: 40em) {
+    .lp-collection-tile {
+      -ms-flex-direction: row;
+          flex-direction: row;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+      margin-bottom: initial; } }
   .lp-collection-tile#college_times {
     background-image: url(/islandora/object/pwc%3A2082/datastream/TN/view); }
   .lp-collection-tile#observer {
@@ -6555,11 +6570,6 @@ ul.lp_nav_tiles {
   -ms-flex-flow: row wrap;
       flex-flow: row wrap; }
   ul.lp_nav_tiles > li {
-    -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-    width: calc(25% - 1.25rem);
-    margin-left: 0.625rem;
-    margin-right: 0.625rem;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-direction: column;
@@ -6573,6 +6583,13 @@ ul.lp_nav_tiles {
     box-shadow: none;
     overflow: hidden;
     color: inherit; }
+    @media print, screen and (min-width: 40em) {
+      ul.lp_nav_tiles > li {
+        -ms-flex: 0 0 auto;
+            flex: 0 0 auto;
+        width: calc(25% - 1.875rem);
+        margin-left: 0.9375rem;
+        margin-right: 0.9375rem; } }
     ul.lp_nav_tiles > li > :last-child {
       margin-bottom: 0; }
   @media print, screen and (min-width: 40em) {
@@ -6586,24 +6603,25 @@ ul.lp_nav_tiles {
 .front .breadcrumbs {
   display: none; }
 
-.front .node__content {
-  display: -ms-flexbox;
-  display: flex;
-  -ms-flex-flow: row wrap;
-      flex-flow: row wrap;
-  padding-left: 0 !important; }
-  .front .node__content #field_slideshow_image {
-    -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-    width: calc(50% - 1.25rem);
-    margin-left: 0.625rem;
-    margin-right: 0.625rem; }
-  .front .node__content .field--name-field-site-info {
-    -ms-flex: 0 0 auto;
-        flex: 0 0 auto;
-    width: calc(50% - 1.25rem);
-    margin-left: 0.625rem;
-    margin-right: 0.625rem; }
+@media print, screen and (min-width: 40em) {
+  .front .node__content {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap;
+    padding-left: 0 !important; }
+    .front .node__content #field_slideshow_image {
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+      width: calc(50% - 1.875rem);
+      margin-left: 0.9375rem;
+      margin-right: 0.9375rem; }
+    .front .node__content .field--name-field-site-info {
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+      width: calc(50% - 1.875rem);
+      margin-left: 0.9375rem;
+      margin-right: 0.9375rem; } }
 
 /*
  *cards
@@ -6768,7 +6786,7 @@ button.search-dropdown-toggle.button {
   transition: transform 0.3s ease-in-out;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
-  background: #2f2b27;
+  background: #23263E;
   top: 0;
   left: 0;
   height: 100%;
@@ -6813,13 +6831,12 @@ button.search-dropdown-toggle.button {
     max-width: 31.25rem;
     padding-left: 1rem;
     margin-bottom: 0;
-    height: 3.75rem;
     padding-left: 1rem;
-    font-size: 3rem;
-    height: 4.5rem;
+    font-size: 2rem;
+    height: 3.125rem;
     padding: initial;
     padding-left: 1rem;
-    font-size: 3rem;
+    font-size: 2rem;
     border-bottom: 4px double;
     border-top: 4px double;
     transition: all 0.4s linear; }

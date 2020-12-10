@@ -89,7 +89,7 @@
 }
 
 @mixin topnav-mobile {
-  $offcanvas-full-screen-bg: $black;
+  $offcanvas-full-screen-bg: $navy;
   $offcanvas-full-screen-side: left;
   $offcanvas-full-screen-width: 100%;
   $offcanvas-full-screen-closebutton-size: 5rem;
@@ -127,15 +127,14 @@
       //margin-right: 1rem;
       padding-left: 1rem;
       margin-bottom: 0;
-      height: rem-calc(60);
       //padding: 0;
       padding-left: 1rem;
-      font-size: 3rem;
+      font-size: 2rem;
       //border: 0px;
-      height: 4.5rem;
+      height: rem-calc(50);
       padding: initial;
       padding-left: 1rem;
-      font-size: 3rem;
+      font-size: 2rem;
       @include double_borders();
       transition: all 0.4s linear;
     }
