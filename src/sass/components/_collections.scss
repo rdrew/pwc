@@ -4,9 +4,6 @@
   @include xy-grid;
 }
 .islandora-basic-collection-object {
-  @include xy-cell(3);
-  display: flex;
-  justify-content: space-around;
   @include card-container(
     none,
     inherit,
@@ -15,6 +12,10 @@
     0px,
     none
   );
+  @include breakpoint(medium) {
+    @include xy-cell(3);
+  }
+  @include xy-cell(6);
 }
 .islandora-basic-collection-thumb {
   display: flex;
