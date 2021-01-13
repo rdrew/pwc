@@ -6251,15 +6251,7 @@ a.thumbnail {
       padding-left: 0.9375rem; } }
 
 .islandora-basic-collection-object {
-  -ms-flex: 0 0 auto;
-      flex: 0 0 auto;
-  width: calc(25% - 1.25rem);
-  margin-left: 0.625rem;
-  margin-right: 0.625rem;
   display: -ms-flexbox;
-  display: flex;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
   display: flex;
   -ms-flex-direction: column;
       flex-direction: column;
@@ -6271,9 +6263,21 @@ a.thumbnail {
   background: none;
   box-shadow: none;
   overflow: hidden;
-  color: inherit; }
+  color: inherit;
+  -ms-flex: 0 0 auto;
+      flex: 0 0 auto;
+  width: calc(50% - 1.25rem);
+  margin-left: 0.625rem;
+  margin-right: 0.625rem; }
   .islandora-basic-collection-object > :last-child {
     margin-bottom: 0; }
+  @media print, screen and (min-width: 40em) {
+    .islandora-basic-collection-object {
+      -ms-flex: 0 0 auto;
+          flex: 0 0 auto;
+      width: calc(25% - 1.875rem);
+      margin-left: 0.9375rem;
+      margin-right: 0.9375rem; } }
 
 .islandora-basic-collection-thumb {
   display: -ms-flexbox;
@@ -6304,7 +6308,7 @@ nav:not(.mm-menu) {
 
 footer {
   margin-top: 1rem;
-  padding-top: 1rem;
+  padding-top: 2rem;
   /*color: lighten($tan-4, 40%);*/
   color: #F6DBBB;
   background: #662B23; }
@@ -6320,6 +6324,7 @@ footer {
 .subfooter {
   max-width: 100%;
   padding: 1rem;
+  margin-top: 1rem;
   background: #382f24;
   background: #23263E; }
   @media print, screen and (min-width: 40em) {
@@ -6415,8 +6420,12 @@ header.l-header {
   fill: #2f2b27; }
 
 .site-name__icon svg {
-  height: 70px;
-  width: 60px; }
+  height: 46px;
+  width: 36px; }
+  @media print, screen and (min-width: 40em) {
+    .site-name__icon svg {
+      height: 70px;
+      width: 60px; } }
 
 .site-name__container {
   display: -ms-flexbox;
@@ -6551,7 +6560,8 @@ nav#block-menu-menu-landing-page-block-menu {
   padding: 1rem;
   position: relative;
   padding-top: 1.1rem;
-  border-radius: 12px; }
+  border-radius: 12px;
+  padding-bottom: 2rem; }
 
 .lp-block-header {
   background: #fff;
@@ -6991,6 +7001,9 @@ button.search-dropdown-toggle.button {
   color: #fff; }
   .dropdown.menu > li.is-active > a:hover {
     text-decoration: underline; }
+
+ul.main-menu__items.dropdown.menu.submenu.is-dropdown-submenu {
+  top: initial; }
 
 .nav-wrapper {
   /*padding: 0 1rem;*/ }

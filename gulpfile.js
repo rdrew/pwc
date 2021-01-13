@@ -22,12 +22,12 @@ var _themeName = "pwc";
 
 //path to the themes assets (compiled css, js, imgs) dir
 //var _path = "/themes/orion/build";
-var _path = "/sites/pwc.dev.islandarchives.ca/themes/pwc/build";
+var _path = "/sites/pwc.islandarchives.ca/themes/pwc/build";
 
 //make sure the 2 Dirs are correct
 var config = {
-  //remoteURL: 'https://dev.islandarchives.ca/',
-  remoteURL: "https://pwc.dev.islandarchives.ca",
+  //remoteURL: 'https:/.islandarchives.ca/',
+  remoteURL: "https://pwc.islandarchives.ca",
   srcDir: "./src",
   injectDir: "./build",
   bsPort: 8000,
@@ -36,10 +36,10 @@ var config = {
   localPath: "/build",
   //bs find and replace
   remoteCss:
-    "/sites/pwc.dev.islandarchives.ca/themes/pwc/build/css/pwc.styles.css",
+    "/sites/pwc.islandarchives.ca/themes/pwc/build/css/pwc.styles.css",
   localCss: "/build/css/pwc.styles.css",
   remoteJs:
-    "/sites/pwc.dev.islandarchives.ca/themes/pwc/build/js/pwc.behaviors.js",
+    "/sites/pwc.islandarchives.ca/themes/pwc/build/js/pwc.behaviors.js",
   localJs: "/build/js/pwc.behaviors.js",
 
   localAssets: {
