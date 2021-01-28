@@ -19,6 +19,7 @@ scripts[] = build/js/pwc.behaviors.js
 
 ;-------------- CSS FOAD -------------
 stylesheets[all][] = system.menus.theme.css
+stylesheets[all][] = islandora_basic_collection.base.css
 
 ; ========================================
 ; libraries
